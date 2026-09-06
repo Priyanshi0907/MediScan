@@ -1,0 +1,9 @@
+{
+  "results": {
+    "Naive Bayes": 90.4,
+    "Logistic Regression": 91.5,
+    "Linear SVM": 91.2
+  },
+  "selected_model": "Logistic Regression",
+  "selected_accuracy": 91.5
+}

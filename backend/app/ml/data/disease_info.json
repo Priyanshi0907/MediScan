@@ -1,0 +1,2461 @@
+{
+  "common-cold": {
+    "slug": "common-cold",
+    "name": "Common Cold",
+    "category": "Respiratory",
+    "symptoms": [
+      "runny nose",
+      "sneezing",
+      "sore throat",
+      "mild cough",
+      "nasal congestion",
+      "mild headache"
+    ],
+    "description": "A mild viral infection of the upper respiratory tract that resolves naturally in 7-10 days.",
+    "general_care": [
+      "Rest adequately and drink plenty of warm fluids.",
+      "Use steam inhalation or saline nasal spray.",
+      "Honey and warm water can soothe throat irritation."
+    ],
+    "source": "Mayo Clinic \u2014 Common Cold"
+  },
+  "influenza": {
+    "slug": "influenza",
+    "name": "Influenza",
+    "category": "Respiratory",
+    "symptoms": [
+      "high fever",
+      "chills",
+      "body ache",
+      "fatigue",
+      "dry cough",
+      "headache",
+      "sore throat"
+    ],
+    "description": "A contagious viral respiratory illness causing sudden onset of fever, severe body aches, and fatigue.",
+    "general_care": [
+      "Rest in bed and stay well-hydrated.",
+      "Take paracetamol for fever and pain relief under medical advice.",
+      "Antiviral medications may help if taken within 48 hours."
+    ],
+    "source": "CDC \u2014 Influenza"
+  },
+  "asthma": {
+    "slug": "asthma",
+    "name": "Asthma",
+    "category": "Respiratory",
+    "symptoms": [
+      "wheezing",
+      "shortness of breath",
+      "chest tightness",
+      "persistent cough",
+      "difficulty breathing"
+    ],
+    "description": "A chronic inflammatory airway condition causing reversible airflow obstruction and breathing difficulty.",
+    "general_care": [
+      "Always carry your prescribed rescue inhaler.",
+      "Identify and avoid known environmental triggers (smoke, dust, pollen).",
+      "Track your peak expiratory flow rate if advised."
+    ],
+    "source": "Global Initiative for Asthma (GINA)"
+  },
+  "bronchitis": {
+    "slug": "bronchitis",
+    "name": "Bronchitis",
+    "category": "Respiratory",
+    "symptoms": [
+      "persistent cough",
+      "mucus production",
+      "chest discomfort",
+      "mild fever",
+      "fatigue",
+      "wheezing"
+    ],
+    "description": "Inflammation of the bronchial tubes usually following a cold or viral illness.",
+    "general_care": [
+      "Drink warm fluids to thin bronchial secretions.",
+      "Use a room humidifier to soothe air passages.",
+      "Avoid active and passive cigarette smoke."
+    ],
+    "source": "American Lung Association \u2014 Bronchitis"
+  },
+  "pneumonia": {
+    "slug": "pneumonia",
+    "name": "Pneumonia",
+    "category": "Respiratory",
+    "symptoms": [
+      "high fever",
+      "cough with phlegm",
+      "chest pain",
+      "shortness of breath",
+      "chills",
+      "fatigue",
+      "rapid breathing"
+    ],
+    "description": "A serious lung infection that causes air sacs to fill with fluid or pus.",
+    "general_care": [
+      "Seek prompt medical diagnosis (chest X-ray/labs).",
+      "Complete the full course of prescribed antibiotics if bacterial.",
+      "Monitor oxygen saturation."
+    ],
+    "source": "WHO \u2014 Pneumonia"
+  },
+  "sinusitis": {
+    "slug": "sinusitis",
+    "name": "Sinusitis",
+    "category": "Respiratory",
+    "symptoms": [
+      "facial pain",
+      "nasal congestion",
+      "thick nasal discharge",
+      "headache",
+      "reduced smell",
+      "pressure around eyes"
+    ],
+    "description": "Inflammation or swelling of the tissue lining the sinuses, often causing facial pressure.",
+    "general_care": [
+      "Apply warm facial compresses.",
+      "Perform gentle saline nasal rinses.",
+      "Stay hydrated to thin mucus."
+    ],
+    "source": "Mayo Clinic \u2014 Sinusitis"
+  },
+  "copd": {
+    "slug": "copd",
+    "name": "COPD",
+    "category": "Respiratory",
+    "symptoms": [
+      "chronic cough",
+      "shortness of breath with exertion",
+      "excess sputum",
+      "wheezing",
+      "chest tightness",
+      "fatigue"
+    ],
+    "description": "Chronic Obstructive Pulmonary Disease causing long-term breathing difficulty and airflow blockage.",
+    "general_care": [
+      "Strict smoking cessation.",
+      "Use prescribed bronchodilators and pulmonary rehab.",
+      "Avoid air pollutants and cold air."
+    ],
+    "source": "GOLD Guidelines \u2014 COPD"
+  },
+  "pulmonary-embolism": {
+    "slug": "pulmonary-embolism",
+    "name": "Pulmonary Embolism",
+    "category": "Respiratory",
+    "symptoms": [
+      "sudden shortness of breath",
+      "sharp chest pain on breathing",
+      "rapid heart rate",
+      "coughing blood",
+      "dizziness"
+    ],
+    "description": "A blockage in one of the pulmonary arteries in your lungs, usually caused by blood clots from deep veins.",
+    "general_care": [
+      "Seek emergency medical attention (Call 911/112 immediately).",
+      "Do not move excessively; remain seated.",
+      "Hospital anticoagulant therapy required."
+    ],
+    "source": "AHA \u2014 Pulmonary Embolism"
+  },
+  "laryngitis": {
+    "slug": "laryngitis",
+    "name": "Laryngitis",
+    "category": "Respiratory",
+    "symptoms": [
+      "hoarseness",
+      "loss of voice",
+      "tickling sensation in throat",
+      "dry throat",
+      "dry cough"
+    ],
+    "description": "Inflammation of the vocal cords causing voice hoarseness and throat discomfort.",
+    "general_care": [
+      "Rest your vocal cords; avoid whispering.",
+      "Drink warm soothing liquids and inhale steam.",
+      "Avoid smoking and alcohol."
+    ],
+    "source": "Mayo Clinic \u2014 Laryngitis"
+  },
+  "pharyngitis": {
+    "slug": "pharyngitis",
+    "name": "Pharyngitis",
+    "category": "Respiratory",
+    "symptoms": [
+      "severe sore throat",
+      "pain with swallowing",
+      "red swollen tonsils",
+      "fever",
+      "swollen neck lymph nodes"
+    ],
+    "description": "Inflammation of the back of the throat, commonly known as a sore throat.",
+    "general_care": [
+      "Gargle with warm salt water several times a day.",
+      "Drink warm soothing liquids.",
+      "Consult a doctor to test for Strep A bacterial infection."
+    ],
+    "source": "CDC \u2014 Pharyngitis"
+  },
+  "pleural-effusion": {
+    "slug": "pleural-effusion",
+    "name": "Pleural Effusion",
+    "category": "Respiratory",
+    "symptoms": [
+      "chest pain on deep inhalation",
+      "shortness of breath",
+      "dry persistent cough",
+      "fever",
+      "rapid shallow breathing"
+    ],
+    "description": "An unusual buildup of fluid between the layers of tissue that line the lungs and the chest cavity.",
+    "general_care": [
+      "Seek medical evaluation and chest radiography.",
+      "Treat underlying cause (infection, heart failure).",
+      "Thoracentesis may be performed by specialists."
+    ],
+    "source": "American Thoracic Society \u2014 Pleural Effusion"
+  },
+  "sleep-apnea": {
+    "slug": "sleep-apnea",
+    "name": "Sleep Apnea",
+    "category": "Respiratory",
+    "symptoms": [
+      "loud snoring",
+      "gasping for air during sleep",
+      "morning headache",
+      "excessive daytime sleepiness",
+      "dry mouth on waking"
+    ],
+    "description": "A sleep disorder characterized by repeated interruptions in breathing throughout the sleep cycle.",
+    "general_care": [
+      "Undergo a polysomnography sleep study.",
+      "Use a CPAP device as prescribed.",
+      "Maintain a healthy weight and avoid evening alcohol."
+    ],
+    "source": "National Sleep Foundation \u2014 Sleep Apnea"
+  },
+  "migraine": {
+    "slug": "migraine",
+    "name": "Migraine",
+    "category": "Neurological",
+    "symptoms": [
+      "throbbing headache",
+      "nausea",
+      "light sensitivity",
+      "sound sensitivity",
+      "visual aura",
+      "dizziness"
+    ],
+    "description": "A neurological condition characterized by recurrent, intense throbbing headaches typically on one side.",
+    "general_care": [
+      "Rest in a dark, quiet room.",
+      "Apply a cold compress to the forehead.",
+      "Maintain consistent hydration and sleep schedules."
+    ],
+    "source": "American Migraine Foundation"
+  },
+  "migraine-with-aura": {
+    "slug": "migraine-with-aura",
+    "name": "Migraine with Aura",
+    "category": "Neurological",
+    "symptoms": [
+      "visual flashes",
+      "blind spots",
+      "tingling in face or hands",
+      "throbbing head pain",
+      "nausea",
+      "light sensitivity"
+    ],
+    "description": "Migraine headache accompanied by sensory or visual disturbances shortly before head pain starts.",
+    "general_care": [
+      "Take prescribed acute migraine medication at the onset of aura.",
+      "Rest in a dimly lit room.",
+      "Avoid identified food or sensory triggers."
+    ],
+    "source": "International Headache Society"
+  },
+  "tension-headache": {
+    "slug": "tension-headache",
+    "name": "Tension Headache",
+    "category": "Neurological",
+    "symptoms": [
+      "dull aching head pain",
+      "tightness across forehead",
+      "scalp tenderness",
+      "neck stiffness",
+      "shoulder tension"
+    ],
+    "description": "The most common type of headache, feeling like a tight band wrapped around the head.",
+    "general_care": [
+      "Apply heat or ice to neck and shoulders.",
+      "Practice stress-reduction and postural ergonomics.",
+      "Stay hydrated and take screen breaks."
+    ],
+    "source": "Mayo Clinic \u2014 Tension Headache"
+  },
+  "cluster-headache": {
+    "slug": "cluster-headache",
+    "name": "Cluster Headache",
+    "category": "Neurological",
+    "symptoms": [
+      "excruciating pain around one eye",
+      "eye redness",
+      "tearing",
+      "nasal congestion on one side",
+      "restlessness"
+    ],
+    "description": "Severe, sharp headaches that occur in cyclical patterns or clusters, typically centered around one eye.",
+    "general_care": [
+      "High-flow oxygen therapy via non-rebreather mask.",
+      "Consult a neurologist for triptans and preventive calcium channel blockers.",
+      "Avoid alcohol during cluster periods."
+    ],
+    "source": "American Neurological Association \u2014 Cluster Headache"
+  },
+  "epilepsy": {
+    "slug": "epilepsy",
+    "name": "Epilepsy",
+    "category": "Neurological",
+    "symptoms": [
+      "uncontrolled jerking movements",
+      "temporary confusion",
+      "loss of consciousness",
+      "staring spells",
+      "aura"
+    ],
+    "description": "A central nervous system disorder in which brain activity becomes abnormal, causing seizures.",
+    "general_care": [
+      "Take antiepileptic medications consistently without missing doses.",
+      "Keep seizure safety guidelines in mind.",
+      "Ensure adequate sleep and manage stress."
+    ],
+    "source": "Epilepsy Foundation"
+  },
+  "stroke": {
+    "slug": "stroke",
+    "name": "Stroke",
+    "category": "Neurological",
+    "symptoms": [
+      "sudden facial drooping",
+      "arm weakness",
+      "slurred speech",
+      "sudden severe headache",
+      "loss of balance",
+      "vision loss"
+    ],
+    "description": "A medical emergency where blood supply to part of the brain is interrupted or reduced.",
+    "general_care": [
+      "CALL EMERGENCY SERVICES IMMEDIATELY (FAST Protocol).",
+      "Note the exact time symptoms started.",
+      "Do not give food, drink, or aspirin until evaluated."
+    ],
+    "source": "American Stroke Association (FAST Protocol)"
+  },
+  "transient-ischemic-attack-tia": {
+    "slug": "transient-ischemic-attack-tia",
+    "name": "Transient Ischemic Attack (TIA)",
+    "category": "Neurological",
+    "symptoms": [
+      "temporary numbness on one side",
+      "brief speech slurring",
+      "transient vision loss",
+      "temporary dizziness",
+      "arm weakness"
+    ],
+    "description": "A temporary blockage of blood flow to the brain, serving as a critical warning sign for full stroke.",
+    "general_care": [
+      "Seek emergency hospital evaluation immediately.",
+      "Undergo urgent brain imaging and vascular ultrasound.",
+      "Initiate stroke-prevention medication under specialist guidance."
+    ],
+    "source": "AHA / ASA \u2014 TIA Warning"
+  },
+  "multiple-sclerosis": {
+    "slug": "multiple-sclerosis",
+    "name": "Multiple Sclerosis",
+    "category": "Neurological",
+    "symptoms": [
+      "numbness in limbs",
+      "electric shock sensations",
+      "tremor",
+      "vision loss in one eye",
+      "fatigue",
+      "unsteady gait"
+    ],
+    "description": "An autoimmune condition where the immune system attacks the protective sheath (myelin) covering nerve fibers.",
+    "general_care": [
+      "Consult a neurologist for disease-modifying therapies (DMTs).",
+      "Engage in physical therapy.",
+      "Avoid extreme heat and fatigue."
+    ],
+    "source": "National Multiple Sclerosis Society"
+  },
+  "parkinsons-disease": {
+    "slug": "parkinsons-disease",
+    "name": "Parkinson's Disease",
+    "category": "Neurological",
+    "symptoms": [
+      "resting tremor",
+      "muscle stiffness",
+      "slow movement",
+      "impaired balance",
+      "soft voice",
+      "shuffling gait"
+    ],
+    "description": "A progressive nervous system disorder that affects movement, muscle control, and balance.",
+    "general_care": [
+      "Work closely with a movement disorder specialist.",
+      "Maintain regular physical therapy and balance exercises.",
+      "Follow prescribed dopaminergic medication schedules."
+    ],
+    "source": "Parkinson's Foundation"
+  },
+  "trigeminal-neuralgia": {
+    "slug": "trigeminal-neuralgia",
+    "name": "Trigeminal Neuralgia",
+    "category": "Neurological",
+    "symptoms": [
+      "sharp stabbing facial pain",
+      "electric shock sensation in cheek",
+      "pain triggered by chewing or brushing teeth",
+      "spontaneous facial spasms"
+    ],
+    "description": "A chronic pain condition affecting the trigeminal nerve that carries sensation from the face to the brain.",
+    "general_care": [
+      "Consult a neurologist for neuropathic pain modulators.",
+      "Avoid known facial touch triggers.",
+      "Consider neurosurgical evaluation if refractory."
+    ],
+    "source": "National Institute of Neurological Disorders (NINDS)"
+  },
+  "bells-palsy": {
+    "slug": "bells-palsy",
+    "name": "Bell's Palsy",
+    "category": "Neurological",
+    "symptoms": [
+      "sudden one-sided facial paralysis",
+      "drooping mouth",
+      "inability to close one eye",
+      "drooling",
+      "loss of taste"
+    ],
+    "description": "Sudden weakness or paralysis on one side of the face caused by inflammation of the 7th cranial nerve.",
+    "general_care": [
+      "Consult a physician promptly for early corticosteroid therapy.",
+      "Use lubricating eye drops and an eye patch to protect the cornea.",
+      "Gentle facial physical therapy."
+    ],
+    "source": "Mayo Clinic \u2014 Bell's Palsy"
+  },
+  "peripheral-neuropathy": {
+    "slug": "peripheral-neuropathy",
+    "name": "Peripheral Neuropathy",
+    "category": "Neurological",
+    "symptoms": [
+      "gradual numbness in feet",
+      "burning pain in hands",
+      "tingling sensations",
+      "extreme sensitivity to touch",
+      "muscle weakness"
+    ],
+    "description": "Damage to the peripheral nerves often causing tingling, numbness, and burning pain in hands and feet.",
+    "general_care": [
+      "Optimize blood sugar management if diabetic.",
+      "Avoid tight restrictive footwear.",
+      "Consult a neurologist for nerve conduction studies."
+    ],
+    "source": "NINDS \u2014 Peripheral Neuropathy"
+  },
+  "gastritis": {
+    "slug": "gastritis",
+    "name": "Gastritis",
+    "category": "Digestive",
+    "symptoms": [
+      "upper abdominal pain",
+      "burning stomach",
+      "nausea",
+      "bloating",
+      "loss of appetite",
+      "belching"
+    ],
+    "description": "Inflammation of the protective lining of the stomach, often caused by NSAIDs, H. pylori, or stress.",
+    "general_care": [
+      "Eat smaller, frequent, non-irritating meals.",
+      "Avoid NSAID pain relievers, caffeine, alcohol, and spicy foods.",
+      "Antacids or acid suppressors can help."
+    ],
+    "source": "Mayo Clinic \u2014 Gastritis"
+  },
+  "gerd": {
+    "slug": "gerd",
+    "name": "GERD",
+    "category": "Digestive",
+    "symptoms": [
+      "heartburn",
+      "acid regurgitation",
+      "chest burning",
+      "difficulty swallowing",
+      "chronic dry cough",
+      "sour taste in mouth"
+    ],
+    "description": "Gastroesophageal Reflux Disease causing chronic acid backflow into the esophagus.",
+    "general_care": [
+      "Avoid lying down within 3 hours after meals.",
+      "Elevate the head of your bed 6 inches.",
+      "Limit citrus, chocolate, tomatoes, and carbonated beverages."
+    ],
+    "source": "American College of Gastroenterology"
+  },
+  "peptic-ulcer": {
+    "slug": "peptic-ulcer",
+    "name": "Peptic Ulcer",
+    "category": "Digestive",
+    "symptoms": [
+      "burning stomach pain between meals",
+      "feeling full too quickly",
+      "bloating",
+      "nausea",
+      "dark stools",
+      "unexplained weight loss"
+    ],
+    "description": "Open sores that develop on the inside lining of the stomach and the upper portion of the small intestine.",
+    "general_care": [
+      "Get tested for Helicobacter pylori infection.",
+      "Avoid ibuprofen, naproxen, and aspirin.",
+      "Seek immediate care if vomit looks like coffee grounds or stools are black."
+    ],
+    "source": "Mayo Clinic \u2014 Peptic Ulcer Disease"
+  },
+  "appendicitis": {
+    "slug": "appendicitis",
+    "name": "Appendicitis",
+    "category": "Digestive",
+    "symptoms": [
+      "sharp lower right abdominal pain",
+      "nausea",
+      "vomiting",
+      "low-grade fever",
+      "loss of appetite",
+      "rebound tenderness"
+    ],
+    "description": "A medical emergency involving acute inflammation of the appendix requiring immediate surgical attention.",
+    "general_care": [
+      "GO TO THE EMERGENCY ROOM IMMEDIATELY.",
+      "Do NOT eat, drink, or take pain relievers/laxatives before surgical evaluation.",
+      "Do not apply heat to the abdomen."
+    ],
+    "source": "American College of Surgeons \u2014 Appendicitis"
+  },
+  "gastroenteritis": {
+    "slug": "gastroenteritis",
+    "name": "Gastroenteritis",
+    "category": "Digestive",
+    "symptoms": [
+      "watery diarrhea",
+      "stomach cramps",
+      "nausea",
+      "vomiting",
+      "mild fever",
+      "body aches",
+      "dehydration"
+    ],
+    "description": "Intestinal infection commonly called stomach flu, marked by diarrhea, cramps, nausea, and fever.",
+    "general_care": [
+      "Drink oral rehydration solution (ORS) and electrolyte broths in small sips.",
+      "Eat bland foods (bananas, rice, applesauce, toast - BRAT diet).",
+      "Seek care if unable to hold liquids for 24h."
+    ],
+    "source": "CDC \u2014 Viral Gastroenteritis"
+  },
+  "irritable-bowel-syndrome": {
+    "slug": "irritable-bowel-syndrome",
+    "name": "Irritable Bowel Syndrome",
+    "category": "Digestive",
+    "symptoms": [
+      "abdominal cramping",
+      "bloating",
+      "gas",
+      "alternating diarrhea and constipation",
+      "mucus in stool",
+      "food intolerance"
+    ],
+    "description": "A common gastrointestinal disorder that affects the large intestine causing chronic cramping and bowel changes.",
+    "general_care": [
+      "Follow a low-FODMAP dietary approach under supervision.",
+      "Increase soluble fiber intake gradually.",
+      "Manage stress and maintain regular physical activity."
+    ],
+    "source": "International Foundation for Gastrointestinal Disorders"
+  },
+  "celiac-disease": {
+    "slug": "celiac-disease",
+    "name": "Celiac Disease",
+    "category": "Digestive",
+    "symptoms": [
+      "chronic diarrhea",
+      "bloating",
+      "gas",
+      "weight loss",
+      "fatigue",
+      "skin rash",
+      "iron deficiency"
+    ],
+    "description": "An autoimmune reaction to eating gluten, a protein found in wheat, barley, and rye.",
+    "general_care": [
+      "Adopt a strict lifelong gluten-free diet.",
+      "Consult a gastroenterologist for antibody testing and biopsy.",
+      "Take nutritional supplements for deficiencies."
+    ],
+    "source": "Celiac Disease Foundation"
+  },
+  "gallstones": {
+    "slug": "gallstones",
+    "name": "Gallstones",
+    "category": "Digestive",
+    "symptoms": [
+      "sudden severe pain in upper right abdomen",
+      "pain radiating to right shoulder",
+      "nausea",
+      "vomiting",
+      "indigestion after fatty meals"
+    ],
+    "description": "Hardened deposits of digestive fluid that form in your gallbladder, triggering biliary colic.",
+    "general_care": [
+      "Seek medical evaluation (abdominal ultrasound).",
+      "Avoid high-fat and fried meals.",
+      "Seek immediate care if pain persists past 4 hours or fever develops."
+    ],
+    "source": "American Gastroenterological Association"
+  },
+  "pancreatitis": {
+    "slug": "pancreatitis",
+    "name": "Pancreatitis",
+    "category": "Digestive",
+    "symptoms": [
+      "severe upper abdominal pain radiating to back",
+      "nausea",
+      "vomiting",
+      "rapid pulse",
+      "fever",
+      "tenderness to touch"
+    ],
+    "description": "Inflammation of the pancreas that occurs when digestive enzymes become activated while still in the pancreas.",
+    "general_care": [
+      "Seek emergency medical hospital admission.",
+      "Fast from food and drink initially to rest the pancreas.",
+      "Strictly abstain from alcohol."
+    ],
+    "source": "National Pancreas Foundation"
+  },
+  "constipation": {
+    "slug": "constipation",
+    "name": "Constipation",
+    "category": "Digestive",
+    "symptoms": [
+      "hard dry stools",
+      "straining during bowel movements",
+      "feeling of incomplete evacuation",
+      "abdominal fullness",
+      "bloating"
+    ],
+    "description": "Infrequent or difficult bowel movements typically defined as fewer than three times a week.",
+    "general_care": [
+      "Increase dietary fiber (chia seeds, prunes, vegetables).",
+      "Drink at least 2.5 liters of water daily.",
+      "Engage in regular physical walking."
+    ],
+    "source": "Mayo Clinic \u2014 Constipation"
+  },
+  "diverticulitis": {
+    "slug": "diverticulitis",
+    "name": "Diverticulitis",
+    "category": "Digestive",
+    "symptoms": [
+      "constant severe lower left abdominal pain",
+      "fever",
+      "nausea",
+      "constipation",
+      "bloating",
+      "abdominal tenderness"
+    ],
+    "description": "Inflammation or infection of small pouches (diverticula) that develop along the walls of the intestines.",
+    "general_care": [
+      "Consult a doctor promptly for diagnostic imaging and antibiotics.",
+      "Temporarily switch to a clear liquid diet during acute flare.",
+      "Gradually reintroduce high-fiber foods."
+    ],
+    "source": "American Society of Colon and Rectal Surgeons"
+  },
+  "hemorrhoids": {
+    "slug": "hemorrhoids",
+    "name": "Hemorrhoids",
+    "category": "Digestive",
+    "symptoms": [
+      "bright red rectal bleeding",
+      "itching around anus",
+      "pain during bowel movements",
+      "swelling or lump near anus"
+    ],
+    "description": "Swollen veins in the lowest part of your rectum and anus.",
+    "general_care": [
+      "Take warm sitz baths for 15 minutes twice daily.",
+      "Use high-fiber diet and stool softeners to avoid straining.",
+      "Apply topical hydrocortisone creams."
+    ],
+    "source": "Mayo Clinic \u2014 Hemorrhoids"
+  },
+  "fatty-liver-disease": {
+    "slug": "fatty-liver-disease",
+    "name": "Fatty Liver Disease",
+    "category": "Digestive",
+    "symptoms": [
+      "fatigue",
+      "dull discomfort in upper right abdomen",
+      "slight liver enlargement",
+      "elevated liver enzymes"
+    ],
+    "description": "Accumulation of excess fat in liver cells, commonly associated with metabolic syndrome or lifestyle.",
+    "general_care": [
+      "Gradual, healthy weight reduction through Mediterranean diet.",
+      "Engage in 150 minutes of aerobic exercise weekly.",
+      "Avoid alcohol and sugary beverages."
+    ],
+    "source": "American Liver Foundation"
+  },
+  "hepatitis-a": {
+    "slug": "hepatitis-a",
+    "name": "Hepatitis A",
+    "category": "Digestive",
+    "symptoms": [
+      "fatigue",
+      "nausea",
+      "abdominal pain",
+      "dark urine",
+      "pale stools",
+      "yellowing of skin and eyes",
+      "loss of appetite"
+    ],
+    "description": "A contagious liver infection caused by the hepatitis A virus, usually transmitted via contaminated food or water.",
+    "general_care": [
+      "Rest completely and avoid alcohol or liver-toxic drugs.",
+      "Drink plenty of clean fluids and eat nutritious small meals.",
+      "Strict hand hygiene to prevent spread."
+    ],
+    "source": "CDC \u2014 Hepatitis A"
+  },
+  "crohns-disease": {
+    "slug": "crohns-disease",
+    "name": "Crohn's Disease",
+    "category": "Digestive",
+    "symptoms": [
+      "recurrent abdominal cramps",
+      "persistent diarrhea",
+      "weight loss",
+      "fatigue",
+      "mouth sores",
+      "rectal bleeding"
+    ],
+    "description": "A chronic inflammatory bowel disease that affects the lining of the digestive tract.",
+    "general_care": [
+      "Consult a gastroenterologist for biologics or immunosuppressants.",
+      "Eat small frequent meals and track food triggers.",
+      "Stay hydrated and supplement vitamins."
+    ],
+    "source": "Crohn's & Colitis Foundation"
+  },
+  "ulcerative-colitis": {
+    "slug": "ulcerative-colitis",
+    "name": "Ulcerative Colitis",
+    "category": "Digestive",
+    "symptoms": [
+      "bloody diarrhea",
+      "urgent need to defecate",
+      "cramping abdominal pain",
+      "rectal pain",
+      "weight loss",
+      "fever"
+    ],
+    "description": "An inflammatory bowel disease that causes long-lasting inflammation and ulcers in your digestive tract's colon.",
+    "general_care": [
+      "Adhere to prescribed anti-inflammatory maintenance medications.",
+      "Monitor iron levels and nutritional status.",
+      "Consult your specialist for regular colonoscopy."
+    ],
+    "source": "Crohn's & Colitis Foundation \u2014 Ulcerative Colitis"
+  },
+  "malaria": {
+    "slug": "malaria",
+    "name": "Malaria",
+    "category": "Infectious",
+    "symptoms": [
+      "cyclical high fever",
+      "shivering chills",
+      "profuse sweating",
+      "headache",
+      "nausea",
+      "body ache",
+      "fatigue"
+    ],
+    "description": "A mosquito-borne infectious disease caused by Plasmodium parasites, causing severe fever cycles.",
+    "general_care": [
+      "Seek immediate medical blood smear / rapid antigen test.",
+      "Complete full course of artemisinin-based combination therapy (ACT).",
+      "Use mosquito bed nets."
+    ],
+    "source": "WHO \u2014 Guidelines for Malaria"
+  },
+  "dengue-fever": {
+    "slug": "dengue-fever",
+    "name": "Dengue Fever",
+    "category": "Infectious",
+    "symptoms": [
+      "sudden high fever",
+      "severe headache",
+      "pain behind the eyes",
+      "joint and muscle ache",
+      "skin rash",
+      "mild bleeding"
+    ],
+    "description": "A mosquito-borne viral infection causing severe flu-like illness, known colloquially as breakbone fever.",
+    "general_care": [
+      "Maintain intensive hydration with electrolyte fluids.",
+      "Take paracetamol for fever; AVOID aspirin, ibuprofen, and NSAIDs.",
+      "Monitor platelet counts daily."
+    ],
+    "source": "CDC \u2014 Dengue Clinical Guidance"
+  },
+  "typhoid-fever": {
+    "slug": "typhoid-fever",
+    "name": "Typhoid Fever",
+    "category": "Infectious",
+    "symptoms": [
+      "prolonged step-ladder fever",
+      "headache",
+      "stomach pain",
+      "constipation or diarrhea",
+      "rose-colored rash",
+      "extreme fatigue"
+    ],
+    "description": "A bacterial infection caused by Salmonella typhi, spreading through contaminated food and drinking water.",
+    "general_care": [
+      "Get blood/stool culture confirmation.",
+      "Take full course of prescribed antibiotics.",
+      "Drink exclusively purified or boiled water."
+    ],
+    "source": "WHO \u2014 Typhoid"
+  },
+  "chikungunya": {
+    "slug": "chikungunya",
+    "name": "Chikungunya",
+    "category": "Infectious",
+    "symptoms": [
+      "abrupt high fever",
+      "severe crippling joint pain",
+      "joint swelling",
+      "rash",
+      "muscle pain",
+      "headache"
+    ],
+    "description": "A viral disease transmitted to humans by infected mosquitoes causing debilitating joint pain.",
+    "general_care": [
+      "Rest and hydrate adequately.",
+      "Take analgesics and paracetamol for joint pain.",
+      "Gentle physical therapy during recovery."
+    ],
+    "source": "WHO \u2014 Chikungunya"
+  },
+  "chickenpox": {
+    "slug": "chickenpox",
+    "name": "Chickenpox",
+    "category": "Infectious",
+    "symptoms": [
+      "itchy fluid-filled blisters",
+      "fever",
+      "tiredness",
+      "loss of appetite",
+      "headache",
+      "red spots on skin"
+    ],
+    "description": "A highly contagious viral infection causing an itchy, blister-like rash and mild systemic fever.",
+    "general_care": [
+      "Apply calamine lotion to soothe itching.",
+      "Take cool baths with baking soda or colloidal oatmeal.",
+      "Isolate until all blisters have crusted over."
+    ],
+    "source": "CDC \u2014 Varicella (Chickenpox)"
+  },
+  "shingles": {
+    "slug": "shingles",
+    "name": "Shingles",
+    "category": "Infectious",
+    "symptoms": [
+      "burning localized pain",
+      "fluid-filled blisters on one side of body",
+      "skin sensitivity",
+      "fever",
+      "itching"
+    ],
+    "description": "A reactivation of the varicella-zoster virus causing a painful, localized blistering rash.",
+    "general_care": [
+      "Consult a doctor within 72h for antiviral therapy (acyclovir/valacyclovir).",
+      "Keep the rash clean and covered with non-stick dressings.",
+      "Apply cool wet compresses."
+    ],
+    "source": "CDC \u2014 Shingles"
+  },
+  "tuberculosis": {
+    "slug": "tuberculosis",
+    "name": "Tuberculosis",
+    "category": "Infectious",
+    "symptoms": [
+      "persistent cough for more than 3 weeks",
+      "coughing blood",
+      "night sweats",
+      "unexplained weight loss",
+      "chest pain",
+      "fever"
+    ],
+    "description": "A serious bacterial infection that mainly affects the lungs, transmitted through airborne droplets.",
+    "general_care": [
+      "Seek immediate sputum testing and chest radiography.",
+      "Strictly complete the 6-month multi-drug antibiotic regimen.",
+      "Wear a mask and ensure good room ventilation."
+    ],
+    "source": "WHO \u2014 Global Tuberculosis Programme"
+  },
+  "covid-19": {
+    "slug": "covid-19",
+    "name": "COVID-19",
+    "category": "Infectious",
+    "symptoms": [
+      "fever",
+      "dry cough",
+      "loss of taste or smell",
+      "fatigue",
+      "shortness of breath",
+      "sore throat",
+      "body aches"
+    ],
+    "description": "A contagious respiratory illness caused by the SARS-CoV-2 coronavirus.",
+    "general_care": [
+      "Isolate in a well-ventilated room and monitor pulse oximeter readings.",
+      "Stay hydrated and get plenty of rest.",
+      "Seek emergency care if oxygen saturation drops below 94%."
+    ],
+    "source": "CDC \u2014 COVID-19 Clinical Care"
+  },
+  "hepatitis-b": {
+    "slug": "hepatitis-b",
+    "name": "Hepatitis B",
+    "category": "Infectious",
+    "symptoms": [
+      "fatigue",
+      "poor appetite",
+      "yellowing of skin and eyes",
+      "dark urine",
+      "joint pain",
+      "nausea"
+    ],
+    "description": "A viral infection that attacks the liver, transmitted through infected blood or bodily fluids.",
+    "general_care": [
+      "Consult a hepatologist for viral load and liver function tests.",
+      "Avoid alcohol and hepatotoxic medications.",
+      "Family members should receive Hepatitis B vaccination."
+    ],
+    "source": "WHO \u2014 Hepatitis B"
+  },
+  "hepatitis-c": {
+    "slug": "hepatitis-c",
+    "name": "Hepatitis C",
+    "category": "Infectious",
+    "symptoms": [
+      "chronic fatigue",
+      "joint aches",
+      "mild upper right abdominal discomfort",
+      "jaundice",
+      "loss of appetite"
+    ],
+    "description": "A blood-borne viral infection that causes liver inflammation, often asymptomatic for decades.",
+    "general_care": [
+      "Direct-acting antiviral (DAA) medications can cure >95% of cases.",
+      "Get screened with an HCV antibody test.",
+      "Avoid all alcohol consumption."
+    ],
+    "source": "CDC \u2014 Hepatitis C"
+  },
+  "mononucleosis": {
+    "slug": "mononucleosis",
+    "name": "Mononucleosis",
+    "category": "Infectious",
+    "symptoms": [
+      "extreme fatigue",
+      "fever",
+      "severe sore throat",
+      "swollen lymph nodes in neck",
+      "enlarged spleen",
+      "headache"
+    ],
+    "description": "A contagious viral illness commonly caused by Epstein-Barr virus (EBV), spread through saliva.",
+    "general_care": [
+      "Get plenty of bed rest and drink fluids.",
+      "Avoid contact sports or heavy lifting for 1 month to prevent spleen rupture.",
+      "Use throat lozenges and warm salt gargles."
+    ],
+    "source": "Mayo Clinic \u2014 Mononucleosis"
+  },
+  "lyme-disease": {
+    "slug": "lyme-disease",
+    "name": "Lyme Disease",
+    "category": "Infectious",
+    "symptoms": [
+      "bullseye skin rash",
+      "fever",
+      "chills",
+      "fatigue",
+      "body aches",
+      "stiff neck",
+      "swollen lymph nodes"
+    ],
+    "description": "A tick-borne bacterial illness caused by Borrelia burgdorferi transmitted by blacklegged ticks.",
+    "general_care": [
+      "Consult a doctor promptly for early oral doxycycline antibiotic treatment.",
+      "Check skin for ticks after outdoor activities.",
+      "Monitor for joint pain or neurological signs."
+    ],
+    "source": "CDC \u2014 Lyme Disease"
+  },
+  "measles": {
+    "slug": "measles",
+    "name": "Measles",
+    "category": "Infectious",
+    "symptoms": [
+      "high fever",
+      "cough",
+      "runny nose",
+      "red watery eyes",
+      "tiny white spots inside mouth",
+      "blotchy skin rash"
+    ],
+    "description": "A highly contagious airborne viral disease causing high fever and a full-body blotchy rash.",
+    "general_care": [
+      "Strict isolation to prevent spreading.",
+      "Vitamin A supplementation under medical guidance.",
+      "Drink plenty of fluids and rest in dim lighting."
+    ],
+    "source": "WHO \u2014 Measles"
+  },
+  "cholera": {
+    "slug": "cholera",
+    "name": "Cholera",
+    "category": "Infectious",
+    "symptoms": [
+      "profuse watery diarrhea",
+      "vomiting",
+      "rapid dehydration",
+      "muscle cramps",
+      "sunken eyes",
+      "low blood pressure"
+    ],
+    "description": "An acute diarrheal illness caused by infection of the intestine with Vibrio cholerae bacteria.",
+    "general_care": [
+      "IMMEDIATE and aggressive Oral Rehydration Salts (ORS) and IV fluids.",
+      "Seek emergency inpatient hospital stabilization.",
+      "Antibiotic therapy under medical supervision."
+    ],
+    "source": "WHO \u2014 Cholera Response"
+  },
+  "rabies-exposure": {
+    "slug": "rabies-exposure",
+    "name": "Rabies Exposure",
+    "category": "Infectious",
+    "symptoms": [
+      "animal bite on skin",
+      "tingling around bite site",
+      "fever",
+      "headache",
+      "anxiety",
+      "agitation"
+    ],
+    "description": "A fatal viral disease transmitted through the saliva of infected animals (dogs, bats, raccoons).",
+    "general_care": [
+      "WASH BITE WOUND WITH SOAP AND RUNNING WATER FOR 15 MINUTES IMMEDIATELY.",
+      "Seek emergency Post-Exposure Prophylaxis (PEP) vaccination without delay.",
+      "Do not wait for symptoms to appear."
+    ],
+    "source": "WHO \u2014 Rabies Post-Exposure Guide"
+  },
+  "hypertension": {
+    "slug": "hypertension",
+    "name": "Hypertension",
+    "category": "Cardiovascular",
+    "symptoms": [
+      "morning headache",
+      "dizziness",
+      "shortness of breath",
+      "nosebleeds",
+      "blurred vision",
+      "chest tightness"
+    ],
+    "description": "Chronic high blood pressure where long-term force of blood against artery walls is elevated.",
+    "general_care": [
+      "Adopt the DASH dietary pattern (low sodium, high potassium).",
+      "Engage in 30 minutes of daily aerobic exercise.",
+      "Take antihypertensive medication consistently as prescribed."
+    ],
+    "source": "AHA / ACC \u2014 Hypertension Guidelines"
+  },
+  "coronary-artery-disease": {
+    "slug": "coronary-artery-disease",
+    "name": "Coronary Artery Disease",
+    "category": "Cardiovascular",
+    "symptoms": [
+      "chest pressure on exertion",
+      "shortness of breath",
+      "fatigue",
+      "pain radiating to jaw or left arm",
+      "lightheadedness"
+    ],
+    "description": "Narrowing or blockage of the coronary arteries usually caused by the buildup of cholesterol plaque.",
+    "general_care": [
+      "Consult a cardiologist for ECG, stress test, and lipid profile.",
+      "Maintain heart-healthy Mediterranean diet.",
+      "Strictly control blood pressure and cholesterol."
+    ],
+    "source": "American Heart Association"
+  },
+  "heart-attack": {
+    "slug": "heart-attack",
+    "name": "Heart Attack",
+    "category": "Cardiovascular",
+    "symptoms": [
+      "crushing chest pain",
+      "pain radiating to left arm neck or jaw",
+      "cold sweat",
+      "shortness of breath",
+      "severe nausea",
+      "dizziness"
+    ],
+    "description": "A life-threatening medical emergency where blood flow to a section of heart muscle becomes blocked.",
+    "general_care": [
+      "CALL EMERGENCY MEDICAL SERVICES (911/112) IMMEDIATELY.",
+      "Chew one regular 325mg aspirin if advised and not allergic.",
+      "Rest quietly in a semi-upright seated position."
+    ],
+    "source": "AHA \u2014 Heart Attack Warning Signs"
+  },
+  "arrhythmia": {
+    "slug": "arrhythmia",
+    "name": "Arrhythmia",
+    "category": "Cardiovascular",
+    "symptoms": [
+      "fluttering in chest",
+      "racing heartbeat",
+      "slow heartbeat",
+      "dizziness",
+      "lightheadedness",
+      "fainting episodes"
+    ],
+    "description": "An irregular heart rhythm where the heart beats too quickly, too slowly, or with an irregular pattern.",
+    "general_care": [
+      "Consult a cardiologist for Holter monitoring and 12-lead ECG.",
+      "Limit caffeine, alcohol, and energy drinks.",
+      "Learn vagal maneuvers if advised by your physician."
+    ],
+    "source": "Heart Rhythm Society"
+  },
+  "heart-failure": {
+    "slug": "heart-failure",
+    "name": "Heart Failure",
+    "category": "Cardiovascular",
+    "symptoms": [
+      "shortness of breath when lying flat",
+      "swelling in legs and ankles",
+      "persistent fatigue",
+      "rapid weight gain from fluid",
+      "wheezing"
+    ],
+    "description": "A chronic condition in which the heart muscle cannot pump blood as efficiently as it should.",
+    "general_care": [
+      "Weigh yourself daily and report sudden 2kg increases.",
+      "Adhere strictly to sodium (<2g/day) and fluid restrictions.",
+      "Take prescribed ACE inhibitors, beta-blockers, or diuretics."
+    ],
+    "source": "Heart Failure Society of America"
+  },
+  "angina-pectoris": {
+    "slug": "angina-pectoris",
+    "name": "Angina Pectoris",
+    "category": "Cardiovascular",
+    "symptoms": [
+      "squeezing chest pain with physical exertion",
+      "pressure in chest relieved by rest",
+      "shortness of breath",
+      "nausea"
+    ],
+    "description": "Chest pain or discomfort caused when heart muscle doesn't receive enough oxygen-rich blood during exertion.",
+    "general_care": [
+      "Stop physical exertion and rest immediately.",
+      "Take sublingual nitroglycerin as prescribed.",
+      "Seek emergency care if pain lasts >5 minutes at rest."
+    ],
+    "source": "British Heart Foundation \u2014 Angina"
+  },
+  "pericarditis": {
+    "slug": "pericarditis",
+    "name": "Pericarditis",
+    "category": "Cardiovascular",
+    "symptoms": [
+      "sharp chest pain worse when lying down",
+      "pain relieved by sitting up and leaning forward",
+      "fever",
+      "heart palpitations"
+    ],
+    "description": "Inflammation of the pericardium (the fibrous sac surrounding the heart).",
+    "general_care": [
+      "Seek medical evaluation and echocardiography.",
+      "Rest and avoid strenuous exercise.",
+      "Take prescribed anti-inflammatory medications (colchicine/NSAIDs)."
+    ],
+    "source": "European Society of Cardiology \u2014 Pericarditis"
+  },
+  "deep-vein-thrombosis": {
+    "slug": "deep-vein-thrombosis",
+    "name": "Deep Vein Thrombosis",
+    "category": "Cardiovascular",
+    "symptoms": [
+      "swelling in one calf or leg",
+      "throbbing calf pain",
+      "warmth in affected leg",
+      "redness of skin on leg"
+    ],
+    "description": "A blood clot that forms in a deep vein, usually in the lower legs, posing a risk of pulmonary embolism.",
+    "general_care": [
+      "Seek urgent medical ultrasound evaluation.",
+      "Do NOT massage or vigorously rub the swollen leg.",
+      "Anticoagulant therapy is required."
+    ],
+    "source": "CDC \u2014 DVT"
+  },
+  "peripheral-artery-disease": {
+    "slug": "peripheral-artery-disease",
+    "name": "Peripheral Artery Disease",
+    "category": "Cardiovascular",
+    "symptoms": [
+      "cramping leg pain when walking (claudication)",
+      "coldness in lower leg or foot",
+      "weak pulse in legs",
+      "slow-healing sores on toes"
+    ],
+    "description": "Narrowed arteries that reduce blood flow to the limbs, most commonly the lower extremities.",
+    "general_care": [
+      "Smoking cessation is critical.",
+      "Engage in supervised walking exercise programs.",
+      "Inspect feet daily for wounds or pressure sores."
+    ],
+    "source": "AHA \u2014 Peripheral Artery Disease"
+  },
+  "aortic-stenosis": {
+    "slug": "aortic-stenosis",
+    "name": "Aortic Stenosis",
+    "category": "Cardiovascular",
+    "symptoms": [
+      "breathlessness with exercise",
+      "chest tightness during activity",
+      "fainting or dizziness upon standing",
+      "heart murmur",
+      "fatigue"
+    ],
+    "description": "Narrowing of the aortic valve opening, restricting blood flow from the left ventricle to the aorta.",
+    "general_care": [
+      "Consult a cardiologist for regular echocardiogram monitoring.",
+      "Avoid heavy isometric lifting.",
+      "Discuss surgical or TAVR valve replacement with specialists."
+    ],
+    "source": "American College of Cardiology"
+  },
+  "postural-orthostatic-tachycardia-pots": {
+    "slug": "postural-orthostatic-tachycardia-pots",
+    "name": "Postural Orthostatic Tachycardia (POTS)",
+    "category": "Cardiovascular",
+    "symptoms": [
+      "rapid heart rate upon standing",
+      "dizziness on standing",
+      "brain fog",
+      "trembling",
+      "extreme fatigue",
+      "palpitations"
+    ],
+    "description": "A condition where heart rate increases by over 30 bpm when transitioning from lying to standing, without significant BP drop.",
+    "general_care": [
+      "Increase oral fluid intake (2.5-3L/day) and sodium under medical guidance.",
+      "Wear medical-grade compression stockings.",
+      "Engage in recumbent rowing/swimming exercises."
+    ],
+    "source": "Dysautonomia International \u2014 POTS"
+  },
+  "diabetes-type-1": {
+    "slug": "diabetes-type-1",
+    "name": "Diabetes Type 1",
+    "category": "Metabolic",
+    "symptoms": [
+      "extreme thirst",
+      "frequent urination",
+      "unintended weight loss",
+      "extreme hunger",
+      "fatigue",
+      "blurred vision"
+    ],
+    "description": "A chronic autoimmune condition in which the pancreas produces little or no insulin.",
+    "general_care": [
+      "Daily blood glucose monitoring and insulin administration.",
+      "Count dietary carbohydrates accurately.",
+      "Check for urine ketones if blood sugar is persistently high."
+    ],
+    "source": "American Diabetes Association \u2014 T1D"
+  },
+  "diabetes-type-2": {
+    "slug": "diabetes-type-2",
+    "name": "Diabetes Type 2",
+    "category": "Metabolic",
+    "symptoms": [
+      "increased thirst",
+      "frequent nighttime urination",
+      "slow-healing cuts",
+      "tingling in hands and feet",
+      "fatigue",
+      "darkened skin patches"
+    ],
+    "description": "A metabolic disorder characterized by high blood sugar, insulin resistance, and relative lack of insulin.",
+    "general_care": [
+      "Adopt a low-glycemic, fiber-rich whole foods diet.",
+      "Exercise for at least 150 minutes per week.",
+      "Monitor HbA1c every 3-6 months with your doctor."
+    ],
+    "source": "ADA \u2014 Type 2 Diabetes Guidelines"
+  },
+  "hypothyroidism": {
+    "slug": "hypothyroidism",
+    "name": "Hypothyroidism",
+    "category": "Endocrine",
+    "symptoms": [
+      "fatigue",
+      "unexplained weight gain",
+      "cold intolerance",
+      "dry skin",
+      "constipation",
+      "muscle weakness",
+      "brittle hair"
+    ],
+    "description": "An underactive thyroid gland that does not produce enough crucial thyroid hormone.",
+    "general_care": [
+      "Take prescribed levothyroxine consistently on an empty stomach.",
+      "Get thyroid function blood tests (TSH/Free T4) checked periodically.",
+      "Eat a balanced iodine-sufficient diet."
+    ],
+    "source": "American Thyroid Association"
+  },
+  "hyperthyroidism": {
+    "slug": "hyperthyroidism",
+    "name": "Hyperthyroidism",
+    "category": "Endocrine",
+    "symptoms": [
+      "rapid heart rate",
+      "unintended weight loss",
+      "heat intolerance",
+      "trembling hands",
+      "sweating",
+      "anxiety",
+      "bulging eyes"
+    ],
+    "description": "An overactive thyroid gland producing an excess of thyroid hormone, speeding up metabolism.",
+    "general_care": [
+      "Consult an endocrinologist for anti-thyroid medication (methimazole) or beta-blockers.",
+      "Avoid excess iodine and caffeine.",
+      "Protect eyes if thyroid eye disease is present."
+    ],
+    "source": "ATA \u2014 Hyperthyroidism"
+  },
+  "cushings-syndrome": {
+    "slug": "cushings-syndrome",
+    "name": "Cushing's Syndrome",
+    "category": "Endocrine",
+    "symptoms": [
+      "round moon face",
+      "weight gain around abdomen",
+      "purple stretch marks",
+      "easy bruising",
+      "high blood pressure",
+      "muscle weakness"
+    ],
+    "description": "A metabolic disorder caused by prolonged exposure to high levels of cortisol hormone.",
+    "general_care": [
+      "Consult an endocrinologist for 24-hour urinary cortisol testing.",
+      "Gradual tapering of exogenous steroid medications if applicable.",
+      "Monitor bone density and blood pressure."
+    ],
+    "source": "Endocrine Society \u2014 Cushing's"
+  },
+  "addisons-disease": {
+    "slug": "addisons-disease",
+    "name": "Addison's Disease",
+    "category": "Endocrine",
+    "symptoms": [
+      "extreme fatigue",
+      "hyperpigmentation (darkened skin)",
+      "low blood pressure",
+      "salt cravings",
+      "nausea",
+      "dizziness"
+    ],
+    "description": "Adrenal insufficiency where the adrenal glands produce insufficient cortisol and aldosterone.",
+    "general_care": [
+      "Take lifelong hormone replacement therapy (hydrocortisone/fludrocortisone).",
+      "Carry an emergency medical alert ID card and injectable hydrocortisone.",
+      "Increase salt intake during hot weather or illness."
+    ],
+    "source": "National Adrenal Diseases Foundation"
+  },
+  "gout": {
+    "slug": "gout",
+    "name": "Gout",
+    "category": "Metabolic",
+    "symptoms": [
+      "sudden intense joint pain in big toe",
+      "swelling and redness of big toe",
+      "lingering joint discomfort",
+      "limited range of motion"
+    ],
+    "description": "A painful form of inflammatory arthritis caused by the crystallization of uric acid in joints.",
+    "general_care": [
+      "Apply ice packs and rest the inflamed joint.",
+      "Avoid purine-rich foods (red meat, shellfish, alcohol, beer).",
+      "Stay well-hydrated to help kidneys excrete uric acid."
+    ],
+    "source": "American College of Rheumatology \u2014 Gout"
+  },
+  "metabolic-syndrome": {
+    "slug": "metabolic-syndrome",
+    "name": "Metabolic Syndrome",
+    "category": "Metabolic",
+    "symptoms": [
+      "large waist circumference",
+      "high blood pressure",
+      "high fasting blood glucose",
+      "high triglycerides",
+      "low HDL cholesterol"
+    ],
+    "description": "A cluster of metabolic risk factors that increase the risk of heart disease, stroke, and diabetes.",
+    "general_care": [
+      "Achieve 7-10% weight reduction through balanced dietary caloric deficit.",
+      "Engage in daily brisk walking and resistance training.",
+      "Annual lipid and fasting glucose screenings."
+    ],
+    "source": "National Heart, Lung, and Blood Institute (NHLBI)"
+  },
+  "polycystic-ovary-syndrome": {
+    "slug": "polycystic-ovary-syndrome",
+    "name": "Polycystic Ovary Syndrome",
+    "category": "Endocrine",
+    "symptoms": [
+      "irregular periods",
+      "excess facial hair",
+      "severe acne",
+      "thinning hair on scalp",
+      "weight gain",
+      "ovarian cysts"
+    ],
+    "description": "A hormonal disorder common among women of reproductive age causing enlarged ovaries with small cysts.",
+    "general_care": [
+      "Adopt an anti-inflammatory, insulin-sensitizing diet.",
+      "Consult a gynecologist/endocrinologist for hormonal or metformin therapies.",
+      "Regular cardiovascular and metabolic checkups."
+    ],
+    "source": "ACOG \u2014 Polycystic Ovary Syndrome"
+  },
+  "hypoglycemia": {
+    "slug": "hypoglycemia",
+    "name": "Hypoglycemia",
+    "category": "Metabolic",
+    "symptoms": [
+      "shakiness",
+      "sweating",
+      "rapid heartbeat",
+      "dizziness",
+      "confusion",
+      "hunger",
+      "blurred vision"
+    ],
+    "description": "An abnormally low level of blood sugar (glucose), body's main energy source, common in diabetic therapy.",
+    "general_care": [
+      "Follow the 15-15 rule: Consume 15 grams of fast-acting carbs (juice, glucose tablets) and recheck in 15 minutes.",
+      "Always carry fast-acting glucose.",
+      "Review medication dosing with doctor."
+    ],
+    "source": "American Diabetes Association \u2014 Hypoglycemia"
+  },
+  "urinary-tract-infection": {
+    "slug": "urinary-tract-infection",
+    "name": "Urinary Tract Infection",
+    "category": "Urologic",
+    "symptoms": [
+      "burning sensation when urinating",
+      "frequent urge to urinate",
+      "cloudy urine",
+      "pelvic pressure",
+      "strong smelling urine"
+    ],
+    "description": "A bacterial infection of the urinary tract, most commonly affecting the bladder and urethra.",
+    "general_care": [
+      "Drink abundant water to help flush bacteria.",
+      "Complete the full course of prescribed antibiotics.",
+      "Avoid holding urine for extended periods."
+    ],
+    "source": "CDC \u2014 Urinary Tract Infection"
+  },
+  "kidney-stones": {
+    "slug": "kidney-stones",
+    "name": "Kidney Stones",
+    "category": "Urologic",
+    "symptoms": [
+      "severe sharp flank pain",
+      "pain radiating to lower abdomen and groin",
+      "blood in urine",
+      "nausea",
+      "painful urination"
+    ],
+    "description": "Hard deposits made of minerals and salts that form inside the kidneys and cause excruciating pain when passing.",
+    "general_care": [
+      "Drink 3 to 4 liters of water daily to facilitate stone passage.",
+      "Take pain relief and alpha-blockers as prescribed by a urologist.",
+      "Strain urine to collect passed stones for analysis."
+    ],
+    "source": "National Kidney Foundation"
+  },
+  "chronic-kidney-disease": {
+    "slug": "chronic-kidney-disease",
+    "name": "Chronic Kidney Disease",
+    "category": "Urologic",
+    "symptoms": [
+      "swelling in ankles and feet",
+      "persistent fatigue",
+      "foamy urine",
+      "nausea",
+      "loss of appetite",
+      "metallic taste in mouth"
+    ],
+    "description": "Gradual loss of kidney function over time, impairing the body's ability to filter waste from blood.",
+    "general_care": [
+      "Strictly manage blood pressure and blood sugar levels.",
+      "Follow a kidney-friendly diet (controlled protein, sodium, potassium).",
+      "Consult a nephrologist regularly."
+    ],
+    "source": "KDIGO Clinical Practice Guidelines"
+  },
+  "acute-cystitis": {
+    "slug": "acute-cystitis",
+    "name": "Acute Cystitis",
+    "category": "Urologic",
+    "symptoms": [
+      "frequent painful urination",
+      "lower abdominal pressure",
+      "cloudy foul-smelling urine",
+      "blood in urine",
+      "low-grade fever"
+    ],
+    "description": "Sudden bacterial inflammation of the urinary bladder.",
+    "general_care": [
+      "Take prescribed antibiotics for the full recommended duration.",
+      "Stay well-hydrated with water.",
+      "Apply a warm heating pad to lower abdomen."
+    ],
+    "source": "Mayo Clinic \u2014 Cystitis"
+  },
+  "benign-prostatic-hyperplasia": {
+    "slug": "benign-prostatic-hyperplasia",
+    "name": "Benign Prostatic Hyperplasia",
+    "category": "Urologic",
+    "symptoms": [
+      "weak urine stream",
+      "difficulty starting urination",
+      "frequent nighttime urination",
+      "dribbling after urination",
+      "urinary urgency"
+    ],
+    "description": "Age-associated non-cancerous enlargement of the prostate gland in men, causing urinary obstruction.",
+    "general_care": [
+      "Avoid fluids 2 hours before bedtime.",
+      "Limit caffeine and alcohol intake.",
+      "Consult a urologist for alpha-blockers or 5-ARIs."
+    ],
+    "source": "American Urological Association (AUA)"
+  },
+  "glomerulonephritis": {
+    "slug": "glomerulonephritis",
+    "name": "Glomerulonephritis",
+    "category": "Urologic",
+    "symptoms": [
+      "pink or cola-colored urine",
+      "foamy urine",
+      "high blood pressure",
+      "facial puffiness in mornings",
+      "swollen ankles"
+    ],
+    "description": "Inflammation of the tiny filters in your kidneys (glomeruli), which remove excess fluid, electrolytes, and waste.",
+    "general_care": [
+      "Undergo urinalysis, kidney function blood tests, and renal biopsy.",
+      "Control blood pressure and reduce sodium intake.",
+      "Immunosuppressive therapy if autoimmune."
+    ],
+    "source": "National Kidney Foundation \u2014 Glomerulonephritis"
+  },
+  "pyelonephritis": {
+    "slug": "pyelonephritis",
+    "name": "Pyelonephritis",
+    "category": "Urologic",
+    "symptoms": [
+      "high fever",
+      "flank pain on one side",
+      "shivering chills",
+      "nausea",
+      "vomiting",
+      "painful frequent urination"
+    ],
+    "description": "A severe bacterial kidney infection typically ascending from a lower urinary tract infection.",
+    "general_care": [
+      "Seek prompt medical care for targeted antibiotic therapy.",
+      "Inpatient IV antibiotics may be required for severe cases.",
+      "Maintain abundant oral or IV hydration."
+    ],
+    "source": "Mayo Clinic \u2014 Kidney Infection"
+  },
+  "interstitial-cystitis": {
+    "slug": "interstitial-cystitis",
+    "name": "Interstitial Cystitis",
+    "category": "Urologic",
+    "symptoms": [
+      "chronic pelvic pain",
+      "persistent urgent need to urinate",
+      "pain when bladder fills",
+      "pain during intercourse"
+    ],
+    "description": "A chronic, painful bladder condition characterized by bladder pressure and pelvic pain without infection.",
+    "general_care": [
+      "Avoid dietary bladder irritants (coffee, tomatoes, artificial sweeteners).",
+      "Undergo physical therapy for pelvic floor muscles.",
+      "Consult a urologist for bladder instillation therapy."
+    ],
+    "source": "Interstitial Cystitis Association"
+  },
+  "osteoarthritis": {
+    "slug": "osteoarthritis",
+    "name": "Osteoarthritis",
+    "category": "Musculoskeletal",
+    "symptoms": [
+      "joint pain during or after movement",
+      "joint stiffness in mornings",
+      "loss of joint flexibility",
+      "grating sensation",
+      "bone spurs"
+    ],
+    "description": "The most common form of arthritis, occurring when protective cartilage on the ends of bones wears down over time.",
+    "general_care": [
+      "Engage in low-impact exercises (swimming, stationary cycling).",
+      "Maintain a healthy weight to reduce joint load.",
+      "Use hot/cold therapy for joint comfort."
+    ],
+    "source": "Arthritis Foundation"
+  },
+  "rheumatoid-arthritis": {
+    "slug": "rheumatoid-arthritis",
+    "name": "Rheumatoid Arthritis",
+    "category": "Musculoskeletal",
+    "symptoms": [
+      "tender warm swollen joints",
+      "symmetrical joint pain in both hands",
+      "morning joint stiffness lasting >1 hour",
+      "fatigue",
+      "fever"
+    ],
+    "description": "A chronic autoimmune disorder that primarily affects joints symmetrically, causing painful swelling and bone erosion.",
+    "general_care": [
+      "Consult a rheumatologist for Disease-Modifying Antirheumatic Drugs (DMARDs).",
+      "Engage in gentle range-of-motion physical therapy.",
+      "Balance activity with restorative joint rest."
+    ],
+    "source": "American College of Rheumatology"
+  },
+  "fibromyalgia": {
+    "slug": "fibromyalgia",
+    "name": "Fibromyalgia",
+    "category": "Musculoskeletal",
+    "symptoms": [
+      "widespread musculoskeletal pain",
+      "chronic fatigue",
+      "sleep disturbances",
+      "cognitive brain fog",
+      "tender trigger points"
+    ],
+    "description": "A disorder characterized by widespread musculoskeletal pain accompanied by fatigue, sleep, memory, and mood issues.",
+    "general_care": [
+      "Maintain gentle regular aerobic exercise (walking, water aerobics).",
+      "Practice sleep hygiene and stress-reduction techniques.",
+      "Medications like duloxetine or pregabalin under doctor guidance."
+    ],
+    "source": "National Fibromyalgia Association"
+  },
+  "sciatica": {
+    "slug": "sciatica",
+    "name": "Sciatica",
+    "category": "Musculoskeletal",
+    "symptoms": [
+      "sharp shooting pain from lower back down leg",
+      "numbness in leg or foot",
+      "tingling in toes",
+      "pain worse when sitting"
+    ],
+    "description": "Pain radiating along the path of the sciatic nerve, which branches from your lower back through your hips and down each leg.",
+    "general_care": [
+      "Apply alternating ice and warm packs to the lower back.",
+      "Practice gentle hamstring and lower back stretching exercises.",
+      "Avoid prolonged seated positions."
+    ],
+    "source": "Spine-Health \u2014 Sciatica Guide"
+  },
+  "tendinitis": {
+    "slug": "tendinitis",
+    "name": "Tendinitis",
+    "category": "Musculoskeletal",
+    "symptoms": [
+      "dull ache when moving affected tendon",
+      "tenderness to touch",
+      "mild swelling",
+      "joint stiffness near shoulder elbow or heel"
+    ],
+    "description": "Inflammation or irritation of a tendon, commonly affecting shoulders, elbows (tennis elbow), or Achilles tendon.",
+    "general_care": [
+      "Follow RICE protocol (Rest, Ice, Compression, Elevation).",
+      "Temporarily avoid activities that trigger tendon strain.",
+      "Physiotherapy for eccentric strengthening."
+    ],
+    "source": "Mayo Clinic \u2014 Tendinitis"
+  },
+  "carpal-tunnel-syndrome": {
+    "slug": "carpal-tunnel-syndrome",
+    "name": "Carpal Tunnel Syndrome",
+    "category": "Musculoskeletal",
+    "symptoms": [
+      "numbness and tingling in thumb index and middle fingers",
+      "hand weakness",
+      "dropping objects",
+      "pain radiating up forearm"
+    ],
+    "description": "Compression of the median nerve as it travels through the carpal tunnel in the wrist.",
+    "general_care": [
+      "Wear a supportive wrist splint, especially at night.",
+      "Take ergonomic breaks during typing or repetitive hand tasks.",
+      "Consult a doctor for nerve conduction study."
+    ],
+    "source": "American Academy of Orthopaedic Surgeons"
+  },
+  "ankylosing-spondylitis": {
+    "slug": "ankylosing-spondylitis",
+    "name": "Ankylosing Spondylitis",
+    "category": "Musculoskeletal",
+    "symptoms": [
+      "chronic lower back pain and stiffness",
+      "pain worse in mornings and improves with exercise",
+      "reduced spine flexibility",
+      "fatigue"
+    ],
+    "description": "An inflammatory arthritis that causes some of the vertebrae in the spine to fuse over time.",
+    "general_care": [
+      "Consult a rheumatologist for biologic therapies (TNF inhibitors).",
+      "Daily spinal stretching and posture exercises.",
+      "Swimming is highly recommended."
+    ],
+    "source": "Spondylitis Association of America"
+  },
+  "bursitis": {
+    "slug": "bursitis",
+    "name": "Bursitis",
+    "category": "Musculoskeletal",
+    "symptoms": [
+      "joint aching or stiffness",
+      "pain with joint pressure",
+      "swelling and redness over shoulder elbow or hip"
+    ],
+    "description": "Painful condition that affects the small, fluid-filled sacs (bursae) that cushion the bones, tendons, and muscles.",
+    "general_care": [
+      "Rest and immobilize the affected joint temporarily.",
+      "Apply cold compresses for 20 minutes several times a day.",
+      "Use cushioning pads over pressure points."
+    ],
+    "source": "Mayo Clinic \u2014 Bursitis"
+  },
+  "osteoporosis": {
+    "slug": "osteoporosis",
+    "name": "Osteoporosis",
+    "category": "Musculoskeletal",
+    "symptoms": [
+      "gradual loss of height over time",
+      "stooped posture",
+      "back pain caused by collapsed vertebra",
+      "bone fractures easily"
+    ],
+    "description": "A bone disease that occurs when the body loses too much bone, causing bones to become weak and brittle.",
+    "general_care": [
+      "Ensure adequate calcium (1200mg) and Vitamin D (800-1000 IU) intake.",
+      "Engage in weight-bearing and balance exercises.",
+      "Undergo DXA bone mineral density screening."
+    ],
+    "source": "National Osteoporosis Foundation"
+  },
+  "cervical-spondylosis": {
+    "slug": "cervical-spondylosis",
+    "name": "Cervical Spondylosis",
+    "category": "Musculoskeletal",
+    "symptoms": [
+      "neck pain and stiffness",
+      "tingling or numbness in arms or fingers",
+      "headache starting at back of neck",
+      "grinding noise when turning neck"
+    ],
+    "description": "Age-related wear and tear affecting the spinal disks in your neck (cervical spine).",
+    "general_care": [
+      "Practice ergonomic workstation alignment with screen at eye level.",
+      "Perform gentle neck stretching and physical therapy exercises.",
+      "Use a supportive ergonomic cervical pillow."
+    ],
+    "source": "AAOS \u2014 Cervical Spondylosis"
+  },
+  "eczema": {
+    "slug": "eczema",
+    "name": "Eczema",
+    "category": "Dermatologic",
+    "symptoms": [
+      "intense skin itching",
+      "dry cracked skin patches",
+      "red to brownish-gray patches",
+      "small raised bumps",
+      "raw sensitive skin from scratching"
+    ],
+    "description": "A chronic inflammatory skin condition characterized by dry, itchy, and irritated patches.",
+    "general_care": [
+      "Moisturize skin liberally twice daily with fragrance-free thick ointments.",
+      "Take brief lukewarm baths and avoid harsh detergents.",
+      "Use topical corticosteroid creams during flares as prescribed."
+    ],
+    "source": "National Eczema Association"
+  },
+  "psoriasis": {
+    "slug": "psoriasis",
+    "name": "Psoriasis",
+    "category": "Dermatologic",
+    "symptoms": [
+      "red skin patches covered with thick silvery scales",
+      "dry cracked skin that may bleed",
+      "itching or burning skin",
+      "pitted thickened nails"
+    ],
+    "description": "An autoimmune skin disease that speeds up the growth cycle of skin cells, leading to thick silvery plaques.",
+    "general_care": [
+      "Apply prescribed topical vitamin D or corticosteroid ointments.",
+      "Keep skin moisturized to prevent cracking.",
+      "Consult a dermatologist for phototherapy or biologics."
+    ],
+    "source": "National Psoriasis Foundation"
+  },
+  "acne-vulgaris": {
+    "slug": "acne-vulgaris",
+    "name": "Acne Vulgaris",
+    "category": "Dermatologic",
+    "symptoms": [
+      "blackheads and whiteheads",
+      "tender red bumps (papules)",
+      "pimples with pus (pustules)",
+      "deep painful cystic lumps"
+    ],
+    "description": "A common skin condition that occurs when hair follicles become plugged with oil and dead skin cells.",
+    "general_care": [
+      "Cleanse face gently twice daily with non-comedogenic cleanser.",
+      "Use over-the-counter benzoyl peroxide or salicylic acid.",
+      "Consult a dermatologist for topical retinoids."
+    ],
+    "source": "American Academy of Dermatology"
+  },
+  "urticaria": {
+    "slug": "urticaria",
+    "name": "Urticaria",
+    "category": "Dermatologic",
+    "symptoms": [
+      "raised red itchy welts",
+      "swelling that changes shape and location",
+      "intense itching",
+      "burning sensation on skin"
+    ],
+    "description": "Hives triggered by allergic reactions, physical pressure, temperature changes, or viral infections.",
+    "general_care": [
+      "Take non-drowsy oral antihistamines (cetirizine, fexofenadine).",
+      "Apply cool damp cloths to soothe itchy areas.",
+      "Avoid hot showers and tight clothing."
+    ],
+    "source": "American College of Allergy, Asthma & Immunology"
+  },
+  "fungal-skin-infection": {
+    "slug": "fungal-skin-infection",
+    "name": "Fungal Skin Infection",
+    "category": "Dermatologic",
+    "symptoms": [
+      "circular red itchy rash with raised edges",
+      "scaly skin",
+      "clear skin in center of ring",
+      "skin peeling",
+      "cracked skin"
+    ],
+    "description": "Superficial fungal infection of the skin commonly called ringworm, athlete's foot, or jock itch.",
+    "general_care": [
+      "Apply over-the-counter topical antifungal cream (clotrimazole, terbinafine) for 2-4 weeks.",
+      "Keep affected area clean and completely dry.",
+      "Avoid sharing personal towels or clothing."
+    ],
+    "source": "CDC \u2014 Fungal Diseases"
+  },
+  "contact-dermatitis": {
+    "slug": "contact-dermatitis",
+    "name": "Contact Dermatitis",
+    "category": "Dermatologic",
+    "symptoms": [
+      "red rash localized to area of contact",
+      "severe itching",
+      "dry cracked scaly skin",
+      "bumps and blisters",
+      "burning sensation"
+    ],
+    "description": "A red, itchy rash caused by direct contact with a substance or an allergic reaction to it (e.g. nickel, poison ivy, soaps).",
+    "general_care": [
+      "Identify and strictly avoid the offending trigger substance.",
+      "Wash affected skin immediately with mild soap and water.",
+      "Apply cold compresses and calamine lotion."
+    ],
+    "source": "Mayo Clinic \u2014 Contact Dermatitis"
+  },
+  "rosacea": {
+    "slug": "rosacea",
+    "name": "Rosacea",
+    "category": "Dermatologic",
+    "symptoms": [
+      "facial redness across cheeks and nose",
+      "visible broken blood vessels",
+      "swollen red bumps resembling acne",
+      "eye irritation"
+    ],
+    "description": "A common chronic skin condition that causes blushing or flushing and visible blood vessels in your face.",
+    "general_care": [
+      "Wear daily broad-spectrum SPF 50+ mineral sunscreen.",
+      "Avoid known triggers (spicy food, hot beverages, alcohol, extreme weather).",
+      "Use gentle, fragrance-free skincare products."
+    ],
+    "source": "National Rosacea Society"
+  },
+  "alopecia-areata": {
+    "slug": "alopecia-areata",
+    "name": "Alopecia Areata",
+    "category": "Dermatologic",
+    "symptoms": [
+      "round coin-sized smooth bald patches on scalp",
+      "sudden hair loss",
+      "exclamation point hairs",
+      "pitted fingernails"
+    ],
+    "description": "An autoimmune condition where the immune system attacks hair follicles, causing patchy hair loss.",
+    "general_care": [
+      "Consult a dermatologist for intralesional corticosteroid injections.",
+      "Protect bald scalp patches from sun exposure with hats/SPF.",
+      "Join support communities."
+    ],
+    "source": "National Alopecia Areata Foundation"
+  },
+  "scabies": {
+    "slug": "scabies",
+    "name": "Scabies",
+    "category": "Dermatologic",
+    "symptoms": [
+      "intense itching worse at night",
+      "thin wavy burrow tracks on skin",
+      "tiny blisters between fingers wrists and waistline"
+    ],
+    "description": "An infestation of the skin by the human itch mite (Sarcoptes scabiei), causing severe nighttime itching.",
+    "general_care": [
+      "Apply prescription 5% permethrin cream from neck to toes overnight.",
+      "Wash all bedding, towels, and clothing in hot water.",
+      "Treat all close household contacts simultaneously."
+    ],
+    "source": "CDC \u2014 Scabies Guidance"
+  },
+  "cellulitis": {
+    "slug": "cellulitis",
+    "name": "Cellulitis",
+    "category": "Dermatologic",
+    "symptoms": [
+      "red swollen tender skin area",
+      "skin warm to touch",
+      "rapidly expanding redness",
+      "fever",
+      "blisters over red area"
+    ],
+    "description": "A potentially serious bacterial skin infection affecting deeper dermis and subcutaneous tissue.",
+    "general_care": [
+      "Seek prompt medical evaluation for oral or IV antibiotics.",
+      "Elevate the affected limb to reduce swelling.",
+      "Mark the border of redness with a pen to monitor progression."
+    ],
+    "source": "Mayo Clinic \u2014 Cellulitis"
+  },
+  "impetigo": {
+    "slug": "impetigo",
+    "name": "Impetigo",
+    "category": "Dermatologic",
+    "symptoms": [
+      "red sores around nose and mouth",
+      "sores rupture and form honey-colored crusts",
+      "mild itching",
+      "painless sores"
+    ],
+    "description": "A highly contagious bacterial skin infection common in young children and infants.",
+    "general_care": [
+      "Apply prescribed topical antibiotic ointment (mupirocin).",
+      "Gently wash sores with mild soap and warm water.",
+      "Keep fingernails short to prevent scratching and spread."
+    ],
+    "source": "CDC \u2014 Impetigo"
+  },
+  "iron-deficiency-anemia": {
+    "slug": "iron-deficiency-anemia",
+    "name": "Iron Deficiency Anemia",
+    "category": "Hematologic",
+    "symptoms": [
+      "extreme fatigue",
+      "pale skin",
+      "weakness",
+      "cold hands and feet",
+      "brittle nails",
+      "shortness of breath with mild exertion"
+    ],
+    "description": "A condition where blood lacks adequate healthy red blood cells due to insufficient iron.",
+    "general_care": [
+      "Eat iron-rich foods (lean meat, lentils, spinach, fortified cereals).",
+      "Take iron supplements with vitamin C (orange juice) to enhance absorption.",
+      "Avoid drinking tea or coffee with meals."
+    ],
+    "source": "WHO \u2014 Anaemia Guidelines"
+  },
+  "vitamin-d-deficiency": {
+    "slug": "vitamin-d-deficiency",
+    "name": "Vitamin D Deficiency",
+    "category": "Nutritional",
+    "symptoms": [
+      "bone pain",
+      "muscle weakness",
+      "frequent infections",
+      "chronic fatigue",
+      "low mood",
+      "hair loss"
+    ],
+    "description": "Inadequate levels of vitamin D in the body, impairing calcium absorption and immune health.",
+    "general_care": [
+      "Get 15-20 minutes of safe midday sun exposure.",
+      "Take vitamin D3 supplements as prescribed based on 25-OH vitamin D levels.",
+      "Consume fortified milk, fatty fish, and egg yolks."
+    ],
+    "source": "Endocrine Society \u2014 Vitamin D"
+  },
+  "vitamin-b12-deficiency": {
+    "slug": "vitamin-b12-deficiency",
+    "name": "Vitamin B12 Deficiency",
+    "category": "Nutritional",
+    "symptoms": [
+      "tingling in hands and feet",
+      "smooth red tongue",
+      "fatigue",
+      "memory problems",
+      "unsteady balance",
+      "pale or jaundiced skin"
+    ],
+    "description": "Insufficient vitamin B12 leading to anemia and nerve damage, common in vegans, elderly, or malabsorption.",
+    "general_care": [
+      "Take oral or sublingual methylcobalamin B12 supplements.",
+      "Consume fortified nutritional yeast, dairy, or meat.",
+      "Consult a doctor for B12 injections if malabsorptive."
+    ],
+    "source": "National Institutes of Health (NIH) \u2014 Vitamin B12"
+  },
+  "dehydration": {
+    "slug": "dehydration",
+    "name": "Dehydration",
+    "category": "Nutritional",
+    "symptoms": [
+      "extreme thirst",
+      "dark yellow urine",
+      "dry mouth",
+      "dizziness upon standing",
+      "infrequent urination",
+      "sunken eyes"
+    ],
+    "description": "A dangerous condition that occurs when you lose more fluids than you take in.",
+    "general_care": [
+      "Drink oral rehydration salts (ORS) or electrolyte solutions in small regular sips.",
+      "Avoid caffeinated or sugary energy drinks.",
+      "Seek emergency IV fluids if unable to retain fluids."
+    ],
+    "source": "CDC \u2014 Hydration & Dehydration"
+  },
+  "electrolyte-imbalance": {
+    "slug": "electrolyte-imbalance",
+    "name": "Electrolyte Imbalance",
+    "category": "Nutritional",
+    "symptoms": [
+      "muscle cramps and spasms",
+      "irregular heartbeat",
+      "confusion",
+      "dizziness",
+      "numbness in fingers",
+      "extreme fatigue"
+    ],
+    "description": "Disruption in the normal concentration of essential minerals (sodium, potassium, calcium, magnesium) in the blood.",
+    "general_care": [
+      "Consume balanced electrolyte broths or drinks.",
+      "Undergo a Comprehensive Metabolic Panel (CMP) blood test.",
+      "Do not take potassium supplements without physician authorization."
+    ],
+    "source": "Mayo Clinic \u2014 Electrolyte Disorders"
+  },
+  "thrombocytopenia": {
+    "slug": "thrombocytopenia",
+    "name": "Thrombocytopenia",
+    "category": "Hematologic",
+    "symptoms": [
+      "easy or excessive bruising",
+      "petechiae (superficial pinpoint purple spots on skin)",
+      "prolonged bleeding from small cuts",
+      "bleeding gums",
+      "nosebleeds"
+    ],
+    "description": "An abnormally low level of platelets (thrombocytes) in the blood, impairing normal blood clotting.",
+    "general_care": [
+      "Consult a hematologist for complete blood count (CBC).",
+      "Avoid contact sports and heavy trauma.",
+      "Avoid aspirin, ibuprofen, and other blood-thinning NSAIDs."
+    ],
+    "source": "National Heart, Lung, and Blood Institute"
+  },
+  "scurvy": {
+    "slug": "scurvy",
+    "name": "Scurvy",
+    "category": "Nutritional",
+    "symptoms": [
+      "bleeding gums",
+      "corkscrew body hair",
+      "bruising easily",
+      "joint and muscle aches",
+      "fatigue",
+      "slow wound healing"
+    ],
+    "description": "A disease caused by severe lack of vitamin C (ascorbic acid) in the diet.",
+    "general_care": [
+      "Consume daily fresh citrus fruits (oranges, lemons), kiwi, bell peppers, and strawberries.",
+      "Take oral Vitamin C supplements.",
+      "Symptoms typically reverse rapidly with supplementation."
+    ],
+    "source": "NIH \u2014 Vitamin C"
+  },
+  "thalassemia-minor": {
+    "slug": "thalassemia-minor",
+    "name": "Thalassemia Minor",
+    "category": "Hematologic",
+    "symptoms": [
+      "mild chronic anemia",
+      "slight fatigue",
+      "pale appearance",
+      "microcytic red blood cells on lab work"
+    ],
+    "description": "An inherited blood disorder that causes the body to have less hemoglobin and smaller red blood cells.",
+    "general_care": [
+      "Undergo hemoglobin electrophoresis for formal confirmation.",
+      "Genetic counseling before family planning.",
+      "Do not take iron supplements unless iron deficiency is proven by ferritin test."
+    ],
+    "source": "Cooley's Anemia Foundation"
+  },
+  "otitis-media": {
+    "slug": "otitis-media",
+    "name": "Otitis Media",
+    "category": "ENT",
+    "symptoms": [
+      "sharp ear pain",
+      "muffled hearing",
+      "fluid draining from ear",
+      "fever",
+      "feeling of fullness in ear",
+      "irritability"
+    ],
+    "description": "An infection of the middle ear, the air-filled space behind the eardrum containing vibrating bones.",
+    "general_care": [
+      "Apply a warm moist cloth over the affected ear.",
+      "Take pain relievers (paracetamol/ibuprofen) as recommended.",
+      "Consult an ENT doctor if ear discharge occurs."
+    ],
+    "source": "American Academy of Otolaryngology"
+  },
+  "allergic-rhinitis": {
+    "slug": "allergic-rhinitis",
+    "name": "Allergic Rhinitis",
+    "category": "ENT",
+    "symptoms": [
+      "frequent sneezing",
+      "itchy watery eyes",
+      "clear runny nose",
+      "itchy roof of mouth",
+      "nasal congestion"
+    ],
+    "description": "An allergic response to airborne allergens such as pollen, pet dander, dust mites, or mold.",
+    "general_care": [
+      "Use daily intranasal corticosteroid spray (fluticasone).",
+      "Take second-generation oral antihistamines (cetirizine/loratadine).",
+      "Keep windows closed during high pollen counts."
+    ],
+    "source": "AAAI \u2014 Allergic Rhinitis"
+  },
+  "tonsillitis": {
+    "slug": "tonsillitis",
+    "name": "Tonsillitis",
+    "category": "ENT",
+    "symptoms": [
+      "red swollen tonsils",
+      "white or yellow coating on tonsils",
+      "painful swallowing",
+      "fever",
+      "enlarged tender neck nodes",
+      "bad breath"
+    ],
+    "description": "Inflammation of the tonsils, two oval-shaped pads of tissue at the back of the throat.",
+    "general_care": [
+      "Gargle with warm salt water several times daily.",
+      "Sip warm soothing herbal teas with honey.",
+      "Consult a doctor for rapid strep swab to determine if antibiotics are needed."
+    ],
+    "source": "Mayo Clinic \u2014 Tonsillitis"
+  },
+  "conjunctivitis": {
+    "slug": "conjunctivitis",
+    "name": "Conjunctivitis",
+    "category": "Ophthalmic",
+    "symptoms": [
+      "pink or red discoloration of eye",
+      "gritty feeling in eye",
+      "itchy eyes",
+      "watery discharge",
+      "crusty eyelids in morning"
+    ],
+    "description": "Inflammation of the transparent membrane (conjunctiva) lining the eyelid and eyeball, commonly known as pink eye.",
+    "general_care": [
+      "Apply cool compresses to closed eyelids.",
+      "Avoid touching or rubbing eyes and wash hands frequently.",
+      "Discard old eye makeup and clean contact lenses thoroughly."
+    ],
+    "source": "American Academy of Ophthalmology"
+  },
+  "dry-eye-syndrome": {
+    "slug": "dry-eye-syndrome",
+    "name": "Dry Eye Syndrome",
+    "category": "Ophthalmic",
+    "symptoms": [
+      "burning sensation in eyes",
+      "stinging eyes",
+      "scratchy feeling",
+      "stringy mucus in eyes",
+      "blurred vision after reading"
+    ],
+    "description": "A common condition that occurs when your tears aren't able to provide adequate lubrication for your eyes.",
+    "general_care": [
+      "Use preservative-free artificial tear eye drops.",
+      "Follow the 20-20-20 rule during screen use (look 20 feet away for 20 seconds every 20 minutes).",
+      "Use a room humidifier."
+    ],
+    "source": "AAO \u2014 Dry Eye"
+  },
+  "glaucoma": {
+    "slug": "glaucoma",
+    "name": "Glaucoma",
+    "category": "Ophthalmic",
+    "symptoms": [
+      "gradual loss of peripheral vision",
+      "tunnel vision in advanced stages",
+      "severe eye pain with halo around lights",
+      "blurred vision"
+    ],
+    "description": "A group of eye conditions that damage the optic nerve, often caused by abnormally high pressure in the eye.",
+    "general_care": [
+      "Undergo regular comprehensive eye exams including tonometry.",
+      "Take prescribed pressure-lowering eye drops daily without fail.",
+      "Seek emergency care for sudden severe eye pain with vomiting."
+    ],
+    "source": "Glaucoma Research Foundation"
+  },
+  "cataract": {
+    "slug": "cataract",
+    "name": "Cataract",
+    "category": "Ophthalmic",
+    "symptoms": [
+      "cloudy or blurry vision",
+      "faded colors",
+      "glare and halos around headlights",
+      "poor night vision",
+      "frequent eyeglasses changes"
+    ],
+    "description": "A clouding of the normally clear lens of your eye, leading to a decrease in vision.",
+    "general_care": [
+      "Consult an ophthalmologist for regular visual acuity testing.",
+      "Use brighter task lighting when reading.",
+      "Cataract surgery is a safe, definitive outpatient curative procedure."
+    ],
+    "source": "National Eye Institute \u2014 Cataracts"
+  },
+  "benign-paroxysmal-positional-vertigo": {
+    "slug": "benign-paroxysmal-positional-vertigo",
+    "name": "Benign Paroxysmal Positional Vertigo",
+    "category": "ENT",
+    "symptoms": [
+      "sudden spinning sensation when turning head",
+      "dizziness when rolling over in bed",
+      "loss of balance",
+      "nausea with head movement"
+    ],
+    "description": "A disorder arising from the inner ear characterized by repeated brief episodes of spinning vertigo.",
+    "general_care": [
+      "Consult an ENT specialist or physical therapist for the Epley canalith repositioning maneuver.",
+      "Avoid sudden head movements.",
+      "Sit on the edge of the bed for 1 minute before standing."
+    ],
+    "source": "Vestibular Disorders Association"
+  },
+  "generalized-anxiety-disorder": {
+    "slug": "generalized-anxiety-disorder",
+    "name": "Generalized Anxiety Disorder",
+    "category": "Mental Health",
+    "symptoms": [
+      "persistent excessive worry",
+      "restlessness",
+      "muscle tension",
+      "difficulty concentrating",
+      "irritability",
+      "sleep disturbance"
+    ],
+    "description": "Chronic, exaggerated worry and tension about everyday life events without obvious reasons for concern.",
+    "general_care": [
+      "Practice daily mindfulness and diaphragmatic breathing.",
+      "Limit caffeine and alcohol intake.",
+      "Consult a mental health professional for Cognitive Behavioral Therapy (CBT)."
+    ],
+    "source": "Anxiety and Depression Association of America"
+  },
+  "major-depressive-disorder": {
+    "slug": "major-depressive-disorder",
+    "name": "Major Depressive Disorder",
+    "category": "Mental Health",
+    "symptoms": [
+      "persistent sad empty mood",
+      "loss of interest in hobbies",
+      "fatigue",
+      "changes in appetite or weight",
+      "feelings of worthlessness",
+      "difficulty sleeping"
+    ],
+    "description": "A mood disorder that causes a persistent feeling of sadness and loss of interest, affecting daily functioning.",
+    "general_care": [
+      "Reach out to a trusted counselor, psychologist, or psychiatrist.",
+      "Engage in daily gentle walking and structured daily routines.",
+      "Seek emergency support if self-harm thoughts occur."
+    ],
+    "source": "National Institute of Mental Health (NIMH)"
+  },
+  "panic-disorder": {
+    "slug": "panic-disorder",
+    "name": "Panic Disorder",
+    "category": "Mental Health",
+    "symptoms": [
+      "sudden intense terror",
+      "pounding racing heart",
+      "chest tightness",
+      "sweating",
+      "trembling",
+      "feeling of choking",
+      "fear of losing control"
+    ],
+    "description": "A type of anxiety disorder characterized by recurrent unexpected panic attacks.",
+    "general_care": [
+      "Practice the 4-7-8 deep breathing technique during an attack.",
+      "Remind yourself that panic attacks peak in 10 minutes and will pass.",
+      "Consult a therapist for CBT."
+    ],
+    "source": "NIMH \u2014 Panic Disorder"
+  },
+  "insomnia-disorder": {
+    "slug": "insomnia-disorder",
+    "name": "Insomnia Disorder",
+    "category": "Mental Health",
+    "symptoms": [
+      "difficulty falling asleep",
+      "waking up during the night",
+      "waking up too early",
+      "daytime fatigue",
+      "irritability",
+      "difficulty concentrating"
+    ],
+    "description": "A common sleep disorder that makes it hard to fall asleep, stay asleep, or causes non-restorative sleep.",
+    "general_care": [
+      "Maintain a fixed sleep and wake-up time 7 days a week.",
+      "Avoid screens and blue light 1 hour before bed.",
+      "Keep bedroom cool, dark, and quiet."
+    ],
+    "source": "American Academy of Sleep Medicine"
+  },
+  "social-anxiety-disorder": {
+    "slug": "social-anxiety-disorder",
+    "name": "Social Anxiety Disorder",
+    "category": "Mental Health",
+    "symptoms": [
+      "intense fear of social interactions",
+      "fear of being judged or embarrassed",
+      "blushing and sweating around people",
+      "avoidance of social situations"
+    ],
+    "description": "An intense, persistent fear of being watched and judged by others in social and performance situations.",
+    "general_care": [
+      "Gradual exposure therapy under professional psychological guidance.",
+      "Practice social interaction in low-stakes safe environments.",
+      "CBT is the gold-standard treatment."
+    ],
+    "source": "ADAA \u2014 Social Anxiety"
+  },
+  "chronic-stress---burnout": {
+    "slug": "chronic-stress---burnout",
+    "name": "Chronic Stress / Burnout",
+    "category": "Mental Health",
+    "symptoms": [
+      "emotional exhaustion",
+      "cynicism and detachment",
+      "reduced personal accomplishment",
+      "chronic physical fatigue",
+      "frequent headaches",
+      "digestive upset"
+    ],
+    "description": "A state of emotional, physical, and mental exhaustion caused by excessive and prolonged stress.",
+    "general_care": [
+      "Establish clear work-life boundaries and scheduled offline downtime.",
+      "Engage in restorative hobbies and daily physical movement.",
+      "Speak with a counselor or occupational health specialist."
+    ],
+    "source": "World Health Organization \u2014 Burn-out"
+  }
+}
