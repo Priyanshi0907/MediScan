@@ -1,4 +1,8 @@
-const BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:8000";
+let rawBase = import.meta.env.VITE_API_URL || "http://localhost:8000";
+if (rawBase && !rawBase.startsWith("http://") && !rawBase.startsWith("https://")) {
+  rawBase = `https://${rawBase}`;
+}
+const BASE_URL = rawBase.replace(/\/+$/, "");
 
 async function request(path, { method = "GET", body, token, params } = {}) {
   let url = `${BASE_URL}${path}`;

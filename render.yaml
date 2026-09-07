@@ -1,0 +1,40 @@
+services:
+  # -------------------------------------------------------------
+  # Backend: FastAPI Web Service
+  # -------------------------------------------------------------
+  - type: web
+    name: mediscan-backend
+    runtime: python
+    rootDir: backend
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: MEDISCAN_SECRET_KEY
+        generateValue: true
+      - key: CORS_ORIGINS
+        value: "http://localhost:5173"
+
+  # -------------------------------------------------------------
+  # Frontend: React Vite Static Site
+  # -------------------------------------------------------------
+  - type: web
+    name: mediscan-frontend
+    runtime: static
+    rootDir: frontend
+    plan: free
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    envVars:
+      - key: VITE_API_URL
+        fromService:
+          type: web
+          name: mediscan-backend
+          property: host

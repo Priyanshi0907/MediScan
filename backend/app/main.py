@@ -4,6 +4,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from .database import Base, engine
 from .routers import auth_router, predict_router, history_router, diseases_router, reports_router, stats_router
 
+import os
+
 Base.metadata.create_all(bind=engine)
 
 app = FastAPI(
@@ -12,9 +14,19 @@ app = FastAPI(
     version="1.0.0",
 )
 
+cors_origins_env = os.environ.get("CORS_ORIGINS", "")
+if cors_origins_env:
+    allow_origins = [origin.strip() for origin in cors_origins_env.split(",") if origin.strip()]
+else:
+    allow_origins = [
+        "http://localhost:5173",
+        "http://127.0.0.1:5173",
+    ]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
+    allow_origins=allow_origins,
+    allow_origin_regex=r"https://.*\.onrender\.com",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
