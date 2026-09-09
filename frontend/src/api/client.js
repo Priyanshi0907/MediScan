@@ -51,6 +51,7 @@ export const api = {
 
   diseases: (token, params) => request("/api/diseases", { token, params }),
   diseaseDetail: (slug, token) => request(`/api/diseases/${slug}`, { token }),
+  compareDiseases: (slugs, token) => request("/api/diseases/compare", { method: "POST", body: { slugs }, token }),
 
   reports: (token, params) => request("/api/reports", { token, params }),
   reportDetail: (id, token) => request(`/api/reports/${id}`, { token }),
