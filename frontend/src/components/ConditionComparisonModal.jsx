@@ -18,6 +18,10 @@ import {
 } from "lucide-react";
 import api from "../api/client";
 import { useAuth } from "../context/AuthContext";
+import {
+  enrichCondition,
+  getConditionStatus
+} from "../utils/clinicalKnowledge";
 
 export default function ConditionComparisonModal({
   isOpen,
@@ -50,10 +54,29 @@ export default function ConditionComparisonModal({
       try {
         const res = await api.compareDiseases(selectedSlugs, token);
         if (isMounted) {
-          setConditions(res.conditions || []);
+          const items = (res.conditions || []).map(enrichCondition);
+          setConditions(items);
         }
       } catch (err) {
-        console.error("Failed to fetch comparison details", err);
+        console.warn("api.compareDiseases unavailable, using fallback:", err);
+        try {
+          const fallbackResults = await Promise.all(
+            selectedSlugs.map(async (s) => {
+              try {
+                const detail = await api.diseaseDetail(s, token);
+                return enrichCondition(detail);
+              } catch {
+                const found = (allDiseasesList || []).find((d) => d.slug === s);
+                return enrichCondition(found || { slug: s, name: s });
+              }
+            })
+          );
+          if (isMounted) {
+            setConditions(fallbackResults.filter(Boolean));
+          }
+        } catch (fallbackErr) {
+          console.error("Comparison fallback failed", fallbackErr);
+        }
       } finally {
         if (isMounted) setLoading(false);
       }
@@ -62,7 +85,7 @@ export default function ConditionComparisonModal({
     return () => {
       isMounted = false;
     };
-  }, [isOpen, selectedSlugs, token]);
+  }, [isOpen, selectedSlugs, token, allDiseasesList]);
 
   if (!isOpen) return null;
 
@@ -323,7 +346,7 @@ export default function ConditionComparisonModal({
                       Condition Status
                     </td>
                     {conditions.map((c) => {
-                      const condStatus = c.status || c.urgency || "Primary Care";
+                      const condStatus = getConditionStatus(c);
                       const isEmergency = condStatus.toLowerCase().includes("emergency");
                       const isUrgent = condStatus.toLowerCase().includes("urgent");
                       const isChronic = condStatus.toLowerCase().includes("chronic");

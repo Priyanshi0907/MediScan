@@ -25,6 +25,10 @@ import {
 import { useAuth } from "../../context/AuthContext";
 import api from "../../api/client";
 import ConditionComparisonModal from "../../components/ConditionComparisonModal";
+import {
+  enrichCondition,
+  getConditionStatus
+} from "../../utils/clinicalKnowledge";
 
 export default function DiseaseDetail() {
   const { slug } = useParams();
@@ -53,13 +57,14 @@ export default function DiseaseDetail() {
           api.diseaseDetail(slug, token),
           api.diseases(token).catch(() => ({ items: [] }))
         ]);
-        setDisease(detailData);
+        const enriched = enrichCondition(detailData || {});
+        setDisease(enriched);
         setAllDiseases(listData.items || []);
 
         // Initialize compare selection with current disease + 1 related condition if available
         const initialCompare = [slug];
-        if (detailData.differential_diagnosis && detailData.differential_diagnosis.length > 0) {
-          initialCompare.push(detailData.differential_diagnosis[0].slug);
+        if (enriched.differential_diagnosis && enriched.differential_diagnosis.length > 0) {
+          initialCompare.push(enriched.differential_diagnosis[0].slug);
         }
         setCompareSlugs(initialCompare);
 
@@ -135,10 +140,11 @@ export default function DiseaseDetail() {
     );
   }
 
-  const status = disease.status || disease.urgency || "Primary Care";
-  const isEmergency = status.toLowerCase().includes("emergency");
-  const isUrgent = status.toLowerCase().includes("urgent");
-  const isChronic = status.toLowerCase().includes("chronic");
+  const status = getConditionStatus(disease);
+  const statusLower = status.toLowerCase();
+  const isEmergency = statusLower.includes("emergency");
+  const isUrgent = statusLower.includes("urgent");
+  const isChronic = statusLower.includes("chronic");
 
   const tabs = [
     { id: "overview", label: "Overview" },

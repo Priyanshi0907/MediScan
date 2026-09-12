@@ -34,19 +34,22 @@ def _get_counts():
 EMERGENCY_KEYWORDS = [
     "appendicitis", "myocardial infarction", "heart attack", "stroke", "pulmonary embolism",
     "anaphylaxis", "aortic", "meningitis", "peritonitis", "sepsis", "pancreatitis",
-    "ectopic pregnancy", "pneumothorax", "intestinal obstruction"
+    "ectopic pregnancy", "pneumothorax", "intestinal obstruction", "rabies", "transient ischemic attack"
 ]
 
 URGENT_KEYWORDS = [
     "pneumonia", "asthma", "bronchitis", "pyelonephritis", "kidney stone", "cholecystitis",
     "deep vein thrombosis", "cellulitis", "diverticulitis", "migraine", "angina",
-    "atrial fibrillation", "acute", "exacerbation"
+    "atrial fibrillation", "arrhythmia", "pericarditis", "dengue", "malaria", "cholera",
+    "gallstone", "peptic ulcer", "shingles", "acute", "exacerbation"
 ]
 
 CHRONIC_KEYWORDS = [
     "diabetes", "hypertension", "copd", "arthritis", "ibs", "irritable bowel", "gerd",
     "reflux", "psoriasis", "eczema", "thyroid", "hyperthyroidism", "hypothyroidism",
-    "osteoporosis", "crohn", "celiac", "fibromyalgia", "chronic"
+    "osteoporosis", "crohn", "celiac", "fibromyalgia", "chronic", "spondylosis", "spondylitis",
+    "multiple sclerosis", "parkinson", "colitis", "coronary artery", "heart failure",
+    "fatty liver", "polycystic", "metabolic syndrome"
 ]
 
 def _classify_status(slug: str, name: str, category: str):

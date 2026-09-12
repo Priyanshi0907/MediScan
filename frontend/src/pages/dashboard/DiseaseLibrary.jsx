@@ -17,6 +17,11 @@ import {
 import { useAuth } from "../../context/AuthContext";
 import api from "../../api/client";
 import ConditionComparisonModal from "../../components/ConditionComparisonModal";
+import {
+  getConditionStatus,
+  matchesStatusFilter,
+  enrichCondition
+} from "../../utils/clinicalKnowledge";
 
 export default function DiseaseLibrary() {
   const { token } = useAuth();
@@ -47,7 +52,8 @@ export default function DiseaseLibrary() {
       setLoading(true);
       try {
         const data = await api.diseases(token);
-        setDiseases(data.items || []);
+        const rawItems = data?.items || (Array.isArray(data) ? data : []);
+        setDiseases(rawItems.map((item) => enrichCondition(item)));
       } catch (err) {
         console.error("Failed to load disease library", err);
       } finally {
@@ -85,26 +91,16 @@ export default function DiseaseLibrary() {
   const categories = ["All", ...new Set(diseases.map((d) => d.category))];
 
   const filtered = diseases.filter((d) => {
-    const q = query.toLowerCase();
+    const q = query.trim().toLowerCase();
     const matchesQuery =
+      !q ||
       d.name.toLowerCase().includes(q) ||
       (d.description && d.description.toLowerCase().includes(q)) ||
-      (d.symptoms && d.symptoms.some((s) => s.toLowerCase().includes(q)));
+      (d.symptoms && d.symptoms.some((s) => s.toLowerCase().includes(q))) ||
+      (d.category && d.category.toLowerCase().includes(q));
 
     const matchesCategory = category === "All" || d.category === category;
-
-    let matchesStatus = true;
-    if (statusFilter === "Saved") {
-      matchesStatus = savedSlugs.includes(d.slug);
-    } else if (statusFilter === "Emergency") {
-      matchesStatus = (d.status || d.urgency || "").toLowerCase().includes("emergency");
-    } else if (statusFilter === "Urgent") {
-      matchesStatus = (d.status || d.urgency || "").toLowerCase().includes("urgent");
-    } else if (statusFilter === "Chronic") {
-      matchesStatus = (d.status || d.urgency || "").toLowerCase().includes("chronic");
-    } else if (statusFilter === "Primary") {
-      matchesStatus = (d.status || d.urgency || "").toLowerCase().includes("primary");
-    }
+    const matchesStatus = matchesStatusFilter(d, statusFilter, savedSlugs);
 
     return matchesQuery && matchesCategory && matchesStatus;
   });
@@ -230,10 +226,11 @@ export default function DiseaseLibrary() {
           {filtered.map((d) => {
             const isSaved = savedSlugs.includes(d.slug);
             const isComparing = selectedCompareSlugs.includes(d.slug);
-            const condStatus = d.status || d.urgency || "Primary Care";
-            const isEmergency = condStatus.toLowerCase().includes("emergency");
-            const isUrgent = condStatus.toLowerCase().includes("urgent");
-            const isChronic = condStatus.toLowerCase().includes("chronic");
+            const condStatus = getConditionStatus(d);
+            const condStatusLower = condStatus.toLowerCase();
+            const isEmergency = condStatusLower.includes("emergency");
+            const isUrgent = condStatusLower.includes("urgent");
+            const isChronic = condStatusLower.includes("chronic");
 
             return (
               <div
@@ -303,7 +300,7 @@ export default function DiseaseLibrary() {
                   </Link>
 
                   <p className="text-xs text-gray-600 line-clamp-2 mb-3.5 leading-relaxed">
-                    {d.description}
+                    {d.description || (d.symptoms && d.symptoms.length > 0 ? `Clinical presentation characterized by ${d.symptoms.slice(0, 3).join(", ")}.` : `Comprehensive clinical monograph for ${d.name}.`)}
                   </p>
 
                   {/* Symptom Tags */}
