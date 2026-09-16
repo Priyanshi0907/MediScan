@@ -1,10 +1,21 @@
+import os
+from pathlib import Path
+from dotenv import load_dotenv
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+# Load environment variables
+env_path_backend = Path(__file__).resolve().parent.parent / ".env"
+env_path_root = Path(__file__).resolve().parent.parent.parent / ".env"
+if env_path_backend.exists():
+    load_dotenv(dotenv_path=env_path_backend)
+elif env_path_root.exists():
+    load_dotenv(dotenv_path=env_path_root)
+else:
+    load_dotenv()
+
 from .database import Base, engine
 from .routers import auth_router, predict_router, history_router, diseases_router, reports_router, stats_router
-
-import os
 
 Base.metadata.create_all(bind=engine)
 

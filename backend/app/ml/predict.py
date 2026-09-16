@@ -70,8 +70,21 @@ def _calculate_symptom_overlap(detected_symptoms: list[str], disease_symptoms: l
 
 
 
+def _find_disease_info(disease_name: str) -> dict:
+    if not disease_name:
+        return {}
+    if disease_name in DISEASE_BY_NAME:
+        return DISEASE_BY_NAME[disease_name]
+    dn_lower = disease_name.lower()
+    for name, info in DISEASE_BY_NAME.items():
+        n_lower = name.lower()
+        if n_lower in dn_lower or dn_lower in n_lower:
+            return info
+    return {}
+
+
 def _generate_recommendations(disease_name: str, detected_symptoms: list[str], risk_level: str) -> dict:
-    info = DISEASE_BY_NAME.get(disease_name, {})
+    info = _find_disease_info(disease_name)
     category = info.get("category", "General")
     general_care = info.get("general_care", [
         "Stay hydrated and get adequate rest.",
@@ -117,7 +130,30 @@ def _generate_recommendations(disease_name: str, detected_symptoms: list[str], r
     }
 
 
+import os
+from pathlib import Path
+from dotenv import load_dotenv
+
+# Ensure environment variables are loaded
+_env_backend = Path(__file__).resolve().parent.parent.parent / ".env"
+_env_root = Path(__file__).resolve().parent.parent.parent.parent / ".env"
+if _env_backend.exists():
+    load_dotenv(_env_backend)
+elif _env_root.exists():
+    load_dotenv(_env_root)
+else:
+    load_dotenv()
+
+from .groq_service import groq_predict
+
+
 def predict(raw_text: str) -> dict:
+    # 1. Try high-precision Groq AI inference if key is present
+    groq_result = groq_predict(raw_text)
+    if groq_result is not None:
+        return groq_result
+
+    # 2. Seamless fallback to local Calibrated ML Pipeline & Clinical Knowledge
     global PIPELINE, _bundle
     if PIPELINE is None:
         _bundle = _load_bundle()

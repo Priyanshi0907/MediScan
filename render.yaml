@@ -17,6 +17,10 @@ services:
         generateValue: true
       - key: CORS_ORIGINS
         value: "http://localhost:5173"
+      - key: GROQ_API_KEY
+        sync: false
+      - key: GROQ_MODEL
+        value: "qwen/qwen3.8-27b"
 
   # -------------------------------------------------------------
   # Frontend: React Vite Static Site

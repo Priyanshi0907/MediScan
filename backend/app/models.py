@@ -41,7 +41,7 @@ class Prediction(Base):
     user = relationship("User", back_populates="predictions")
 
     def to_dict(self):
-        from .ml.predict import _generate_recommendations, DISEASE_BY_NAME
+        from .ml.predict import _generate_recommendations, _find_disease_info, DISEASE_BY_NAME
         symptoms = json.loads(self.detected_symptoms)
         try:
             others = json.loads(self.other_predictions)
@@ -51,12 +51,12 @@ class Prediction(Base):
 
         # Calculate affected body systems breakdown
         category_counts = {}
-        top_info = DISEASE_BY_NAME.get(self.top_disease, {})
+        top_info = _find_disease_info(self.top_disease)
         top_cat = top_info.get("category", "General")
         category_counts[top_cat] = category_counts.get(top_cat, 0) + (self.confidence / 100.0)
 
         for o in others:
-            o_info = DISEASE_BY_NAME.get(o.get("disease"), {})
+            o_info = _find_disease_info(o.get("disease", ""))
             o_cat = o_info.get("category", "General")
             category_counts[o_cat] = category_counts.get(o_cat, 0) + (o.get("confidence", 10) / 100.0)
 

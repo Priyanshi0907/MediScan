@@ -32,8 +32,12 @@ python3 -m venv venv
 source venv/bin/activate          # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
+# Configure Environment (Groq AI for high-accuracy clinical reasoning)
+cp .env.example .env
+# Edit .env and set your GROQ_API_KEY
+
 # The trained model is already included at app/ml/data/model.pkl.
-# To regenerate the dataset and retrain from scratch:
+# To regenerate the dataset and retrain local fallback models:
 python -m app.ml.build_dataset
 python -m app.ml.train_model
 
@@ -41,7 +45,7 @@ uvicorn app.main:app --reload --port 8000
 ```
 
 The API is now running at `http://localhost:8000` (interactive docs at
-`http://localhost:8000/docs`).
+`http://localhost:8000/docs`). When `GROQ_API_KEY` is configured, MediScan uses Groq's ultra-fast LLM inference (`qwen/qwen3.8-27b`) for high-precision clinical diagnosis, detailed pathophysiological explanations, and personalized medical recommendations, while gracefully falling back to the local calibrated ML pipeline if offline.
 
 ### 2. Frontend
 
